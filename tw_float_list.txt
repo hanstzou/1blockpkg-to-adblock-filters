@@ -1,0 +1,168 @@
+[Adblock Plus 2.0]
+! Checksum: lpovuAfBdC59KiBn6mCM4w
+! Version: 201706120000
+! Expires: 2 days
+! Title: TW Float List
+! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
+!
+###simplemodel-overlay
+##.adsbygoogle
+##.fancybox-overlay
+##.fancybox-wrap
+##div#smartbanner
+##iframe[class^="ONEAD-mobile-ad"]
+appledaily.com.tw##div#Cover
+appshopper.com##.sidebar .bsa-banner
+appshopper.com##iframe[src^="//disqusads.com/ads-iframe"]
+appweb.cna.com.tw##div[class^="ad"]
+burrardstreetjournal.com##div[class^=ArevicoModal]
+businesstoday.com.tw##.m-top
+businesstoday.com.tw##.reveal-modal-bg
+businesstoday.com.tw##div.footerBanner
+businessweekly.com.tw##div#AdSameFullPanel
+businessweekly.com.tw##div.socialshare
+businessweekly.com.tw##div.topbannerAD
+businessweekly.com.tw##div[id^=ONEAD]
+buzzorange.com###tags-navigation
+buzzorange.com##div#divFloatBottom
+buzzorange.com##div[class^=share_group]
+buzzorange.com##p#back-top
+ck101.com##a.btn-contribute-bottom
+eprice.com.tw##div#popup-ad-overlay
+ettoday.net##div#native_mobile_stick_b
+ettoday.net##div#recomm-news
+ettoday.net##div[class^="adM"]
+facebook.com##div#mobile_login_bar
+facebook.com##div#mobile_login_bar + div
+facebook.com##div#pagelet_growth_expanding_cta
+hk01.com##.footer__socialshare.sticky
+huffpost.com##.bn-share-bottom
+imama.tw##div.popwin
+info.hibarn.com##div.wrap > *:nth-child(n+3)
+kikinote.net##div#popup
+ltn.com.tw##div.door-bottom
+ltn.com.tw##div.fb_mask
+ltn.com.tw##div.splash
+ltn.com.tw##div[class^="mar"]
+ltn.com.tw##div[id^="ONEAD"]
+ltn.com.tw,appledaily.com.tw##div#eyeDiv
+m.cna.com.tw###sticky .carousel, div[id*="marquee"]
+m.ent.appledaily.com.tw##div.ui-footer-fixed
+m.gamme.com.tw##a#fullad_all
+m.gamme.com.tw##div#closeFullad
+m.gamme.com.tw##div#fullBG
+m.gamme.com.tw##div#wrap > a:nth-child(-n+3)
+m.gamme.com.tw##div.ad_down
+m.gamme.com.tw##div.if
+m.gamme.com.tw##div.share
+m.gamme.com.tw##span.pimgShare
+m.mobile01.com##div#ad1
+m.mobile01.com##div#ad_fullscreen
+m.news.ebc.net.tw##div#copyShare
+managertoday.com.tw##div.ad-cover
+medium.com##div.postActionsBar-content > div:not(.postActions)
+news.gamme.com.tw##.ad_down
+news.gamme.com.tw##.header .h_subnav
+newtalk.tw##div[id^="div-gpt-ad"]
+nownews.com##div.ads-block
+ntdtv.com##.social-info
+on.cc##div#mOverLay-container
+parenting.com.tw##a.scrollToTop
+parenting.com.tw##div.fix_b_ad
+pchome.com.tw##div#MainSet > div#ss
+pchome.com.tw##div.admaskbg
+pchome.com.tw##div.global_footer_wrapper
+pchome.com.tw##div[id^=HTML5_AD]
+pchome.com.tw##footer#foot
+pixnet.net##div#recommend-tools
+pixnet.net##div.header-ad
+pixnet.net##div.pop-ad-cover
+pixnet.net##div.sticky-box
+plurk.com,roodo.com##div.sitemaji_inters
+pttweb.tw##div#at-share-dock
+qooah.com###uni320
+qooah.com##div#background
+qooah.com##div#fixedban
+readmoo.com##div[class^=show-box]
+setn.com##div#bottom_AD
+setn.com##div.top-nav.fixed
+sina.com.tw##.mfp-bg
+sina.com.tw##.mfp-container
+soundofhope.org##div#fbox-background
+spp.com.tw##div#cboxOverlay
+spp.com.tw##div#colorbox
+techbang.com##div#pop-container
+techbang.com##div.mobile_full_ads
+technews.tw##div.blockUI
+thestandnews.com##div.donation-banner
+tvbs.com.tw##div.flash_news
+tvbs.com.tw##div.main_share
+tvbs.com.tw##div.nav-m
+tvbs.com.tw##div.under-banner-m
+tvbs.com.tw##div[id^=one_ad]
+tvbs.com.tw##iframe[id^="aswift"]
+tw.weibo.com##div#cboxOverlay
+tw.weibo.com##div#colorbox
+tw.weibo.com##div#footer_mobile_bottom
+tw.weibo.com##div.pi-Ad-mb-stick
+tw.weibo.com##div[id^="ONEAD"]
+tw.weibo.com##iframe#scupio_frame
+udn.com###cboxClose, #cboxOverlay, #colorbox, .ads-container, .overlay-mask
+udn.com##div#bottomAd
+udn.com##div#cate_menu
+udn.com##div#footer ~ a[id^="go"]
+udn.com##div.float_bar
+udn.com##div[id^=simplemodal-]
+upmedia.mg##div#Adgeek_bottomAd
+upmedia.mg##div#marquee
+viewfinder.com.tw##div.overlayer
+webptt.com##div#Cover
+wechatinchina.com##div.PopupLayer, div.PopupLayerBg
+wechatinchina.com##div.bottom_nav
+wetalk.tw##div.in[class^=modal]
+www.am730.com.hk##div.share-button
+www.bnext.com.tw##div#ad-pixfs
+www.bnext.com.tw##div#sticky-wrapper.is-sticky
+www.bnext.com.tw##div.top_nav
+www.bnext.com.tw##div[class^=sumome-share]
+www.chinatimes.com##div.ad_rwd_dfp
+www.chinatimes.com##div[id^=pagead]
+www.edigest.hk##.footer_fixed
+www.fashionwaltz.com##div.stb-container
+www.gamer.com.tw##script:contains(AntiAd)
+www.hbrtaiwan.com##.sticky-backdrop
+www.hbrtaiwan.com##div.ad-container
+www.hbrtaiwan.com##div[class^="at-expanding-share-button"] 
+www.judgead.in##.site-footer
+www.mirrormedia.mg##div.dfp-cover
+www.mirrormedia.mg##div.share-mobile
+www.mplus.com.tw###searchbar
+www.mplus.com.tw##div#footer
+www.sportsv.net##div#bottomAD
+www.storm.mg###cboxOverlay
+www.storm.mg##div#colorbox
+www.storm.mg##div.fixed-toolbar
+www.storm.mg##div[class^="ad_article_bottom_block"]
+www.storm.mg,pixnet.net##div#scupio_interstitialad
+www.teepr.com##div.bot-sticky-wrapper
+www.teepr.com##div.bot-sticky-wrapper
+www.teepr.com##div.single_post ~ *
+www.teepr.com##div[class^=remodal]
+www.teepr.com##div[id^="popmake"]
+www.teepr.com##div[id^=post] ~ *
+www.thenewslens.com###bottombar
+www.thenewslens.com##div.ad-btm
+www.thenewslens.com##div.medmenu.stick
+www.thenewslens.com##div.sumome-scrollbox-popup
+www.thenewslens.com##div[id^="ONEAD"]
+www.upmedia.mg##div#insert_popup_ad
+www.weekendhk.com##.footer_fixed
+www.weekendhk.com##.search_banner
+xuite.net##div#crazyCrazy
+xuite.net##div#gmads
+xuite.net##div.techocean-gemini-ad-bottom-wrapper
+yahoo.com##div#DARLAlyr
+yahoo.com##div#app > div:first-child > div.Pos\(f\):last-child
+yam.com##div.axdBox
+yam.com##div.shareBar
+yam.com##div[id^=idle_]
