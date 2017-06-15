@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: lpovuAfBdC59KiBn6mCM4w
-! Version: 201706120000
+! Checksum: Q24ZnlpyoOfYGzC/jcDgQA
+! Version: 201706160039
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -12,7 +12,6 @@
 ##div#smartbanner
 ##iframe[class^="ONEAD-mobile-ad"]
 appledaily.com.tw##div#Cover
-appshopper.com##.sidebar .bsa-banner
 appshopper.com##iframe[src^="//disqusads.com/ads-iframe"]
 appweb.cna.com.tw##div[class^="ad"]
 burrardstreetjournal.com##div[class^=ArevicoModal]
@@ -27,14 +26,30 @@ buzzorange.com###tags-navigation
 buzzorange.com##div#divFloatBottom
 buzzorange.com##div[class^=share_group]
 buzzorange.com##p#back-top
+cardu.com.tw###copyright
+cardu.com.tw###ft_ad_box
 ck101.com##a.btn-contribute-bottom
+clickme.net###Shadow
 eprice.com.tw##div#popup-ad-overlay
 ettoday.net##div#native_mobile_stick_b
-ettoday.net##div#recomm-news
-ettoday.net##div[class^="adM"]
+ettoday.net##div#recomm-news,div[id^="adM"]
+ettoday.net##div[class^="adM"],div[id^="ebAd"]
 facebook.com##div#mobile_login_bar
 facebook.com##div#mobile_login_bar + div
 facebook.com##div#pagelet_growth_expanding_cta
+gamme.com.tw##.fixedbutton
+gamme.com.tw##.header .h_subnav
+gamme.com.tw##a#fullad_all
+gamme.com.tw##div#closeFullad
+gamme.com.tw##div#fullBG
+gamme.com.tw##div#wrap > a:nth-child(-n+3)
+gamme.com.tw##div.ad_down
+gamme.com.tw##div.if
+gamme.com.tw##div.share
+gamme.com.tw##span.pimgShare
+haaretz.com###maavaron
+haaretz.com##.footer-toolbar.float
+haaretz.com##.mobile-banner
 hk01.com##.footer__socialshare.sticky
 huffpost.com##.bn-share-bottom
 imama.tw##div.popwin
@@ -48,21 +63,14 @@ ltn.com.tw##div[id^="ONEAD"]
 ltn.com.tw,appledaily.com.tw##div#eyeDiv
 m.cna.com.tw###sticky .carousel, div[id*="marquee"]
 m.ent.appledaily.com.tw##div.ui-footer-fixed
-m.gamme.com.tw##a#fullad_all
-m.gamme.com.tw##div#closeFullad
-m.gamme.com.tw##div#fullBG
-m.gamme.com.tw##div#wrap > a:nth-child(-n+3)
-m.gamme.com.tw##div.ad_down
-m.gamme.com.tw##div.if
-m.gamme.com.tw##div.share
-m.gamme.com.tw##span.pimgShare
+m.mobile01.com###smartbanner-area
 m.mobile01.com##div#ad1
 m.mobile01.com##div#ad_fullscreen
 m.news.ebc.net.tw##div#copyShare
 managertoday.com.tw##div.ad-cover
 medium.com##div.postActionsBar-content > div:not(.postActions)
-news.gamme.com.tw##.ad_down
-news.gamme.com.tw##.header .h_subnav
+mobile01.com###Full_AD,div[class^="modal"]
+news.readmoo.com##.show-box
 newtalk.tw##div[id^="div-gpt-ad"]
 nownews.com##div.ads-block
 ntdtv.com##.social-info
@@ -83,6 +91,7 @@ pttweb.tw##div#at-share-dock
 qooah.com###uni320
 qooah.com##div#background
 qooah.com##div#fixedban
+quora.com##div[id$="banner"]
 readmoo.com##div[class^=show-box]
 setn.com##div#bottom_AD
 setn.com##div.top-nav.fixed
@@ -144,7 +153,6 @@ www.storm.mg##div#colorbox
 www.storm.mg##div.fixed-toolbar
 www.storm.mg##div[class^="ad_article_bottom_block"]
 www.storm.mg,pixnet.net##div#scupio_interstitialad
-www.teepr.com##div.bot-sticky-wrapper
 www.teepr.com##div.bot-sticky-wrapper
 www.teepr.com##div.single_post ~ *
 www.teepr.com##div[class^=remodal]
