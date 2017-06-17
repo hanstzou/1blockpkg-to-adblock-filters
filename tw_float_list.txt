@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: Q24ZnlpyoOfYGzC/jcDgQA
-! Version: 201706160039
+! Checksum: 0uoYfECjTZKY3JSV2P+Mug
+! Version: 201706180056
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -30,6 +30,11 @@ cardu.com.tw###copyright
 cardu.com.tw###ft_ad_box
 ck101.com##a.btn-contribute-bottom
 clickme.net###Shadow
+cmoney.tw###FbFansFixedBlock
+cmoney.tw##.m-socail-wrap
+cool3c.com##.board-cool3c_MobileAD
+cool3c.com##.social-bar.sticky
+douban.com##div.bottom_ad_download
 eprice.com.tw##div#popup-ad-overlay
 ettoday.net##div#native_mobile_stick_b
 ettoday.net##div#recomm-news,div[id^="adM"]
@@ -37,6 +42,9 @@ ettoday.net##div[class^="adM"],div[id^="ebAd"]
 facebook.com##div#mobile_login_bar
 facebook.com##div#mobile_login_bar + div
 facebook.com##div#pagelet_growth_expanding_cta
+fashionwaltz.com##div.fix_bottom_ad
+fashionwaltz.com##div.stb-container
+fhm.com.tw##div.special_ad_cover
 gamme.com.tw##.fixedbutton
 gamme.com.tw##.header .h_subnav
 gamme.com.tw##a#fullad_all
@@ -51,6 +59,7 @@ haaretz.com###maavaron
 haaretz.com##.footer-toolbar.float
 haaretz.com##.mobile-banner
 hk01.com##.footer__socialshare.sticky
+hkjam.com###spu-bg,#spu-main
 huffpost.com##.bn-share-bottom
 imama.tw##div.popwin
 info.hibarn.com##div.wrap > *:nth-child(n+3)
@@ -72,11 +81,14 @@ medium.com##div.postActionsBar-content > div:not(.postActions)
 mobile01.com###Full_AD,div[class^="modal"]
 news.readmoo.com##.show-box
 newtalk.tw##div[id^="div-gpt-ad"]
+niusnews.com##.divMSns
+niusnews.com##.swiper-free-mode
 nownews.com##div.ads-block
 ntdtv.com##.social-info
 on.cc##div#mOverLay-container
 parenting.com.tw##a.scrollToTop
 parenting.com.tw##div.fix_b_ad
+parenting.com.tw##footer + iframe
 pchome.com.tw##div#MainSet > div#ss
 pchome.com.tw##div.admaskbg
 pchome.com.tw##div.global_footer_wrapper
@@ -93,6 +105,7 @@ qooah.com##div#background
 qooah.com##div#fixedban
 quora.com##div[id$="banner"]
 readmoo.com##div[class^=show-box]
+roodo.com##div.pi-ad-mobile-tag-outer
 setn.com##div#bottom_AD
 setn.com##div.top-nav.fixed
 sina.com.tw##.mfp-bg
@@ -102,7 +115,14 @@ spp.com.tw##div#cboxOverlay
 spp.com.tw##div#colorbox
 techbang.com##div#pop-container
 techbang.com##div.mobile_full_ads
+techbang.com##div.phone-ads
 technews.tw##div.blockUI
+thenewslens.com###bottombar
+thenewslens.com##div.ad-btm
+thenewslens.com##div.medmenu.stick
+thenewslens.com##div.sumome-scrollbox-popup
+thenewslens.com##div[id^="ONEAD"]
+thepaper.cn###moblink-href
 thestandnews.com##div.donation-banner
 tvbs.com.tw##div.flash_news
 tvbs.com.tw##div.main_share
@@ -125,11 +145,15 @@ udn.com##div[id^=simplemodal-]
 upmedia.mg##div#Adgeek_bottomAd
 upmedia.mg##div#marquee
 viewfinder.com.tw##div.overlayer
+vogue.com.tw###popAD-Close,.mask_off
+vogue.com.tw###r-share
 webptt.com##div#Cover
 wechatinchina.com##div.PopupLayer, div.PopupLayerBg
 wechatinchina.com##div.bottom_nav
 wetalk.tw##div.in[class^=modal]
+wowlavie.com###articleShare
 www.am730.com.hk##div.share-button
+www.bnext.com.tw##.bnextmeida-banner
 www.bnext.com.tw##div#ad-pixfs
 www.bnext.com.tw##div#sticky-wrapper.is-sticky
 www.bnext.com.tw##div.top_nav
@@ -137,7 +161,6 @@ www.bnext.com.tw##div[class^=sumome-share]
 www.chinatimes.com##div.ad_rwd_dfp
 www.chinatimes.com##div[id^=pagead]
 www.edigest.hk##.footer_fixed
-www.fashionwaltz.com##div.stb-container
 www.gamer.com.tw##script:contains(AntiAd)
 www.hbrtaiwan.com##.sticky-backdrop
 www.hbrtaiwan.com##div.ad-container
@@ -158,14 +181,11 @@ www.teepr.com##div.single_post ~ *
 www.teepr.com##div[class^=remodal]
 www.teepr.com##div[id^="popmake"]
 www.teepr.com##div[id^=post] ~ *
-www.thenewslens.com###bottombar
-www.thenewslens.com##div.ad-btm
-www.thenewslens.com##div.medmenu.stick
-www.thenewslens.com##div.sumome-scrollbox-popup
-www.thenewslens.com##div[id^="ONEAD"]
 www.upmedia.mg##div#insert_popup_ad
 www.weekendhk.com##.footer_fixed
 www.weekendhk.com##.search_banner
+www.wemoscooter.com##.et_bloom_popup
+www.wemoscooter.com##.et_social_mobile, .et_social_mobile_overlay
 xuite.net##div#crazyCrazy
 xuite.net##div#gmads
 xuite.net##div.techocean-gemini-ad-bottom-wrapper
