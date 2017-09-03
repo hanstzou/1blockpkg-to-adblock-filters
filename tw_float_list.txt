@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: RYd8u77VYdiWP9DRVwtUDg
-! Version: 201709032207
+! Checksum: oGl7YV646+i9oRNogaxEWg
+! Version: 201709040059
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -10,11 +10,12 @@
 ##.fancybox-overlay
 ##.fancybox-wrap
 ##div#smartbanner
-##div.pop-ad-cover
+##div.pop-ad-cover, div.idle-pop.modal
 ##iframe[class^="ONEAD-mobile-ad"]
 appledaily.com.tw##div#Cover
 appshopper.com##iframe[src^="//disqusads.com/ads-iframe"]
 appweb.cna.com.tw##div[class^="ad"]
+blog.sina.com.tw###fix_bottom, #ad_iframe_background, #ad_iframe_area
 burrardstreetjournal.com##div[class^=ArevicoModal]
 businesstoday.com.tw##.m-top
 businesstoday.com.tw##.reveal-modal-bg
@@ -75,6 +76,7 @@ huffpost.com##.bn-share-bottom
 imama.tw##div.popwin
 info.hibarn.com##div.wrap > *:nth-child(n+3)
 kikinote.net##div#popup
+kocpc.com.tw##div.pi-Ad-mb-stick, div.pi-ad-mobile-tag-outer
 lifehacker.jp##div.lh-postSns
 ltn.com.tw##div.door-bottom
 ltn.com.tw##div.fb_mask
@@ -86,9 +88,9 @@ m.cna.com.tw###sticky .carousel, div[id*="marquee"]
 m.ent.appledaily.com.tw##div.ui-footer-fixed
 m.mobile01.com###smartbanner-area
 m.mobile01.com##div#ad1
-m.mobile01.com##div#ad_fullscreen
 m.news.ebc.net.tw##div#copyShare
 managertoday.com.tw##div.ad-cover
+match.net.tw##div#share_bottom
 medium.com##div.postActionsBar-content > div:not(.postActions)
 mobile01.com###Full_AD,div[class^="modal"]
 news.readmoo.com##.show-box
@@ -120,6 +122,7 @@ readmoo.com##div[class^=show-box]
 roodo.com##div.pi-ad-mobile-tag-outer
 setn.com##div#bottom_AD
 setn.com##div.top-nav.fixed
+shoppingdesign.com.tw##div#like-box, div.reveal-modal-bg
 sina.com.tw##.mfp-bg
 sina.com.tw##.mfp-container
 soundofhope.org##div#fbox-background
@@ -134,7 +137,7 @@ thenewslens.com##div.ad-btm
 thenewslens.com##div[id^="ONEAD"]
 thepaper.cn###moblink-href
 thestandnews.com##div.donation-banner
-time.com##div[id^="ad-adhesion"]
+time.com##span[id^="ad_is_"][id$="_CONTAINER"]
 tvbs.com.tw##div.flash_news
 tvbs.com.tw##div.main_share
 tvbs.com.tw##div.nav-m
@@ -189,7 +192,7 @@ www.sportsv.net##div#bottomAD
 www.storm.mg###cboxOverlay
 www.storm.mg##div#colorbox
 www.storm.mg##div.fixed-toolbar
-www.storm.mg##div[class^="ad_article_bottom_block"]
+www.storm.mg##div[class^="ad_article_bottom_block"], div#article_bottomBar
 www.storm.mg,pixnet.net##div#scupio_interstitialad, div#scupio_interstitial
 www.teepr.com##div.bot-sticky-wrapper
 www.teepr.com##div.single_post ~ *
@@ -200,7 +203,7 @@ www.upmedia.mg##div#insert_popup_ad
 www.weekendhk.com##.footer_fixed
 www.weekendhk.com##.search_banner
 www.wemoscooter.com##.et_bloom_popup
-www.wemoscooter.com##.et_social_mobile, .et_social_mobile_overlay
+www.wemoscooter.com##.et_social_mobile, .et_social_mobile_overlay, .et_bloom_optin
 xuite.net##div#crazyCrazy
 xuite.net##div#gmads
 xuite.net##div.techocean-gemini-ad-bottom-wrapper
