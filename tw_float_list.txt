@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 0uoYfECjTZKY3JSV2P+Mug
-! Version: 201706180056
+! Checksum: zUTa3nLV8jzSJwksY2/nyQ
+! Version: 201709032042
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -10,6 +10,7 @@
 ##.fancybox-overlay
 ##.fancybox-wrap
 ##div#smartbanner
+##div.pop-ad-cover
 ##iframe[class^="ONEAD-mobile-ad"]
 appledaily.com.tw##div#Cover
 appshopper.com##iframe[src^="//disqusads.com/ads-iframe"]
@@ -32,12 +33,18 @@ ck101.com##a.btn-contribute-bottom
 clickme.net###Shadow
 cmoney.tw###FbFansFixedBlock
 cmoney.tw##.m-socail-wrap
+coco01.net###aod_fixed_float
+coco01.net##.adCat
+coco01.net##.promote-cover
 cool3c.com##.board-cool3c_MobileAD
 cool3c.com##.social-bar.sticky
+dm5.com##div[class^="ad"]
+dm5.com##div[id^="_unit_space"], div.readPage ~ div
 douban.com##div.bottom_ad_download
 eprice.com.tw##div#popup-ad-overlay
 ettoday.net##div#native_mobile_stick_b
 ettoday.net##div#recomm-news,div[id^="adM"]
+ettoday.net##div.adult-box, div.overlay-adult
 ettoday.net##div[class^="adM"],div[id^="ebAd"]
 facebook.com##div#mobile_login_bar
 facebook.com##div#mobile_login_bar + div
@@ -45,6 +52,7 @@ facebook.com##div#pagelet_growth_expanding_cta
 fashionwaltz.com##div.fix_bottom_ad
 fashionwaltz.com##div.stb-container
 fhm.com.tw##div.special_ad_cover
+gamer.com.tw##div.footer + div
 gamme.com.tw##.fixedbutton
 gamme.com.tw##.header .h_subnav
 gamme.com.tw##a#fullad_all
@@ -64,6 +72,7 @@ huffpost.com##.bn-share-bottom
 imama.tw##div.popwin
 info.hibarn.com##div.wrap > *:nth-child(n+3)
 kikinote.net##div#popup
+lifehacker.jp##div.lh-postSns
 ltn.com.tw##div.door-bottom
 ltn.com.tw##div.fb_mask
 ltn.com.tw##div.splash
@@ -95,8 +104,8 @@ pchome.com.tw##div.global_footer_wrapper
 pchome.com.tw##div[id^=HTML5_AD]
 pchome.com.tw##footer#foot
 pixnet.net##div#recommend-tools
+pixnet.net##div.article-content-inner > div.fb-page
 pixnet.net##div.header-ad
-pixnet.net##div.pop-ad-cover
 pixnet.net##div.sticky-box
 plurk.com,roodo.com##div.sitemaji_inters
 pttweb.tw##div#at-share-dock
@@ -117,13 +126,11 @@ techbang.com##div#pop-container
 techbang.com##div.mobile_full_ads
 techbang.com##div.phone-ads
 technews.tw##div.blockUI
-thenewslens.com###bottombar
 thenewslens.com##div.ad-btm
-thenewslens.com##div.medmenu.stick
-thenewslens.com##div.sumome-scrollbox-popup
 thenewslens.com##div[id^="ONEAD"]
 thepaper.cn###moblink-href
 thestandnews.com##div.donation-banner
+time.com##div[id^="ad-adhesion"]
 tvbs.com.tw##div.flash_news
 tvbs.com.tw##div.main_share
 tvbs.com.tw##div.nav-m
@@ -144,6 +151,7 @@ udn.com##div.float_bar
 udn.com##div[id^=simplemodal-]
 upmedia.mg##div#Adgeek_bottomAd
 upmedia.mg##div#marquee
+upmedia.mg##div#maskfb, div#note_windows
 viewfinder.com.tw##div.overlayer
 vogue.com.tw###popAD-Close,.mask_off
 vogue.com.tw###r-share
@@ -158,6 +166,7 @@ www.bnext.com.tw##div#ad-pixfs
 www.bnext.com.tw##div#sticky-wrapper.is-sticky
 www.bnext.com.tw##div.top_nav
 www.bnext.com.tw##div[class^=sumome-share]
+www.chinatimes.com##.newtop
 www.chinatimes.com##div.ad_rwd_dfp
 www.chinatimes.com##div[id^=pagead]
 www.edigest.hk##.footer_fixed
@@ -175,7 +184,7 @@ www.storm.mg###cboxOverlay
 www.storm.mg##div#colorbox
 www.storm.mg##div.fixed-toolbar
 www.storm.mg##div[class^="ad_article_bottom_block"]
-www.storm.mg,pixnet.net##div#scupio_interstitialad
+www.storm.mg,pixnet.net##div#scupio_interstitialad, div#scupio_interstitial
 www.teepr.com##div.bot-sticky-wrapper
 www.teepr.com##div.single_post ~ *
 www.teepr.com##div[class^=remodal]
