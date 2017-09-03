@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: zUTa3nLV8jzSJwksY2/nyQ
-! Version: 201709032042
+! Checksum: RYd8u77VYdiWP9DRVwtUDg
+! Version: 201709032207
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -38,6 +38,7 @@ coco01.net##.adCat
 coco01.net##.promote-cover
 cool3c.com##.board-cool3c_MobileAD
 cool3c.com##.social-bar.sticky
+cw.com.tw##.paywallAnnounce
 dm5.com##div[class^="ad"]
 dm5.com##div[id^="_unit_space"], div.readPage ~ div
 douban.com##div.bottom_ad_download
@@ -46,12 +47,14 @@ ettoday.net##div#native_mobile_stick_b
 ettoday.net##div#recomm-news,div[id^="adM"]
 ettoday.net##div.adult-box, div.overlay-adult
 ettoday.net##div[class^="adM"],div[id^="ebAd"]
+facebook.com###pagelet_ego_pane
 facebook.com##div#mobile_login_bar
 facebook.com##div#mobile_login_bar + div
 facebook.com##div#pagelet_growth_expanding_cta
 fashionwaltz.com##div.fix_bottom_ad
 fashionwaltz.com##div.stb-container
 fhm.com.tw##div.special_ad_cover
+flickr.com##.signup-footer
 gamer.com.tw##div.footer + div
 gamme.com.tw##.fixedbutton
 gamme.com.tw##.header .h_subnav
@@ -125,6 +128,7 @@ spp.com.tw##div#colorbox
 techbang.com##div#pop-container
 techbang.com##div.mobile_full_ads
 techbang.com##div.phone-ads
+techcrunch.com##.lightbox
 technews.tw##div.blockUI
 thenewslens.com##div.ad-btm
 thenewslens.com##div[id^="ONEAD"]
@@ -143,7 +147,7 @@ tw.weibo.com##div#footer_mobile_bottom
 tw.weibo.com##div.pi-Ad-mb-stick
 tw.weibo.com##div[id^="ONEAD"]
 tw.weibo.com##iframe#scupio_frame
-udn.com###cboxClose, #cboxOverlay, #colorbox, .ads-container, .overlay-mask
+udn.com###cboxClose, #cboxOverlay, #colorbox, .ads-container, .overlay-mask, #show_box
 udn.com##div#bottomAd
 udn.com##div#cate_menu
 udn.com##div#footer ~ a[id^="go"]
@@ -162,10 +166,11 @@ wetalk.tw##div.in[class^=modal]
 wowlavie.com###articleShare
 www.am730.com.hk##div.share-button
 www.bnext.com.tw##.bnextmeida-banner
-www.bnext.com.tw##div#ad-pixfs
+www.bnext.com.tw##div#ad-pixfs, .delay_full_cover_ad, .modal-backdrop
 www.bnext.com.tw##div#sticky-wrapper.is-sticky
 www.bnext.com.tw##div.top_nav
 www.bnext.com.tw##div[class^=sumome-share]
+www.businessinsider.com##.tp-modal, .tp-backdrop
 www.chinatimes.com##.newtop
 www.chinatimes.com##div.ad_rwd_dfp
 www.chinatimes.com##div[id^=pagead]
@@ -174,6 +179,7 @@ www.gamer.com.tw##script:contains(AntiAd)
 www.hbrtaiwan.com##.sticky-backdrop
 www.hbrtaiwan.com##div.ad-container
 www.hbrtaiwan.com##div[class^="at-expanding-share-button"] 
+www.intego.com###newsletter-overlay
 www.judgead.in##.site-footer
 www.mirrormedia.mg##div.dfp-cover
 www.mirrormedia.mg##div.share-mobile
