@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: oGl7YV646+i9oRNogaxEWg
-! Version: 201709040059
+! Checksum: XBBFA7uI7daMHUOWeQXanQ
+! Version: 201709072312
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -10,6 +10,7 @@
 ##.fancybox-overlay
 ##.fancybox-wrap
 ##div#smartbanner
+##div.pi-Ad-mb-stick, div.pi-ad-mobile-tag-outer
 ##div.pop-ad-cover, div.idle-pop.modal
 ##iframe[class^="ONEAD-mobile-ad"]
 appledaily.com.tw##div#Cover
@@ -75,8 +76,8 @@ hkjam.com###spu-bg,#spu-main
 huffpost.com##.bn-share-bottom
 imama.tw##div.popwin
 info.hibarn.com##div.wrap > *:nth-child(n+3)
+instagram.com##nav[role="navigation"] > div:only-child > div:only-child > div:nth-of-type(3)
 kikinote.net##div#popup
-kocpc.com.tw##div.pi-Ad-mb-stick, div.pi-ad-mobile-tag-outer
 lifehacker.jp##div.lh-postSns
 ltn.com.tw##div.door-bottom
 ltn.com.tw##div.fb_mask
@@ -193,7 +194,7 @@ www.storm.mg###cboxOverlay
 www.storm.mg##div#colorbox
 www.storm.mg##div.fixed-toolbar
 www.storm.mg##div[class^="ad_article_bottom_block"], div#article_bottomBar
-www.storm.mg,pixnet.net##div#scupio_interstitialad, div#scupio_interstitial
+www.storm.mg,pixnet.net,weibo.com##div#scupio_interstitialad, div#scupio_interstitial
 www.teepr.com##div.bot-sticky-wrapper
 www.teepr.com##div.single_post ~ *
 www.teepr.com##div[class^=remodal]
@@ -205,7 +206,7 @@ www.weekendhk.com##.search_banner
 www.wemoscooter.com##.et_bloom_popup
 www.wemoscooter.com##.et_social_mobile, .et_social_mobile_overlay, .et_bloom_optin
 xuite.net##div#crazyCrazy
-xuite.net##div#gmads
+xuite.net##div#gmads, div#rmiad
 xuite.net##div.techocean-gemini-ad-bottom-wrapper
 yahoo.com##div#DARLAlyr
 yahoo.com##div#app > div:first-child > div.Pos\(f\):last-child
