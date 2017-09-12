@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: XBBFA7uI7daMHUOWeQXanQ
-! Version: 201709072312
+! Checksum: lpmazU609ZRd4HipgW1NwA
+! Version: 201709130420
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -27,6 +27,7 @@ businessweekly.com.tw##div.topbannerAD
 businessweekly.com.tw##div[id^=ONEAD]
 buzzorange.com###tags-navigation
 buzzorange.com##div#divFloatBottom
+buzzorange.com##div.ui-widget-overlay, div.ui-dialog
 buzzorange.com##div[class^=share_group]
 buzzorange.com##p#back-top
 cardu.com.tw###copyright
@@ -41,6 +42,7 @@ coco01.net##.promote-cover
 cool3c.com##.board-cool3c_MobileAD
 cool3c.com##.social-bar.sticky
 cw.com.tw##.paywallAnnounce
+cw.com.tw##iframe[src*="div-gpt-ad"]
 dm5.com##div[class^="ad"]
 dm5.com##div[id^="_unit_space"], div.readPage ~ div
 douban.com##div.bottom_ad_download
@@ -77,6 +79,7 @@ huffpost.com##.bn-share-bottom
 imama.tw##div.popwin
 info.hibarn.com##div.wrap > *:nth-child(n+3)
 instagram.com##nav[role="navigation"] > div:only-child > div:only-child > div:nth-of-type(3)
+juksy.com##div.mtopic
 kikinote.net##div#popup
 lifehacker.jp##div.lh-postSns
 ltn.com.tw##div.door-bottom
@@ -193,6 +196,7 @@ www.sportsv.net##div#bottomAD
 www.storm.mg###cboxOverlay
 www.storm.mg##div#colorbox
 www.storm.mg##div.fixed-toolbar
+www.storm.mg##div.popup_wrapper
 www.storm.mg##div[class^="ad_article_bottom_block"], div#article_bottomBar
 www.storm.mg,pixnet.net,weibo.com##div#scupio_interstitialad, div#scupio_interstitial
 www.teepr.com##div.bot-sticky-wrapper
