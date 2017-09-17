@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: lpmazU609ZRd4HipgW1NwA
-! Version: 201709130420
+! Checksum: m3YQ7JCcW36VtGf0ALt54w
+! Version: 201709180006
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -14,6 +14,7 @@
 ##div.pop-ad-cover, div.idle-pop.modal
 ##iframe[class^="ONEAD-mobile-ad"]
 appledaily.com.tw##div#Cover
+appledaily.com.tw##div.ui-footer-fixed, div#fadeinoutAD
 appshopper.com##iframe[src^="//disqusads.com/ads-iframe"]
 appweb.cna.com.tw##div[class^="ad"]
 blog.sina.com.tw###fix_bottom, #ad_iframe_background, #ad_iframe_area
@@ -73,15 +74,20 @@ gamme.com.tw##span.pimgShare
 haaretz.com###maavaron
 haaretz.com##.footer-toolbar.float
 haaretz.com##.mobile-banner
+healthway.tips##div.popwin
 hk01.com##.footer__socialshare.sticky
 hkjam.com###spu-bg,#spu-main
+housefun.com.tw##.m-bottom-bar.is-share
 huffpost.com##.bn-share-bottom
 imama.tw##div.popwin
 info.hibarn.com##div.wrap > *:nth-child(n+3)
 instagram.com##nav[role="navigation"] > div:only-child > div:only-child > div:nth-of-type(3)
 juksy.com##div.mtopic
 kikinote.net##div#popup
+kknews.cc##div.at-share-dock-outer
 lifehacker.jp##div.lh-postSns
+ltn.com.tw###idle-notice
+ltn.com.tw##.boxTitle .appevent
 ltn.com.tw##div.door-bottom
 ltn.com.tw##div.fb_mask
 ltn.com.tw##div.splash
@@ -89,11 +95,11 @@ ltn.com.tw##div[class^="mar"]
 ltn.com.tw##div[id^="ONEAD"]
 ltn.com.tw,appledaily.com.tw##div#eyeDiv
 m.cna.com.tw###sticky .carousel, div[id*="marquee"]
-m.ent.appledaily.com.tw##div.ui-footer-fixed
 m.mobile01.com###smartbanner-area
 m.mobile01.com##div#ad1
 m.news.ebc.net.tw##div#copyShare
-managertoday.com.tw##div.ad-cover
+managertoday.com.tw##div.ad-cover, div#lightbox0_pdup
+managertoday.com.tw##div.sumome-share-client-wrapper-mobile-bottom-bar
 match.net.tw##div#share_bottom
 medium.com##div.postActionsBar-content > div:not(.postActions)
 mobile01.com###Full_AD,div[class^="modal"]
@@ -181,6 +187,7 @@ www.businessinsider.com##.tp-modal, .tp-backdrop
 www.chinatimes.com##.newtop
 www.chinatimes.com##div.ad_rwd_dfp
 www.chinatimes.com##div[id^=pagead]
+www.cyclingweekly.com##.advert.header-advert.row
 www.edigest.hk##.footer_fixed
 www.gamer.com.tw##script:contains(AntiAd)
 www.hbrtaiwan.com##.sticky-backdrop
