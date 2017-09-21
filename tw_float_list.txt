@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: m3YQ7JCcW36VtGf0ALt54w
-! Version: 201709180006
+! Checksum: EN7WlBDs9Uc2G3+fE2YOFA
+! Version: 201709220117
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -37,11 +37,14 @@ ck101.com##a.btn-contribute-bottom
 clickme.net###Shadow
 cmoney.tw###FbFansFixedBlock
 cmoney.tw##.m-socail-wrap
+cnyes.com##footer + span
 coco01.net###aod_fixed_float
 coco01.net##.adCat
 coco01.net##.promote-cover
 cool3c.com##.board-cool3c_MobileAD
 cool3c.com##.social-bar.sticky
+ctitv.com.tw###adover, .clickforceads
+ctitv.com.tw##iframe[id^="google_osd_static_frame"] + div
 cw.com.tw##.paywallAnnounce
 cw.com.tw##iframe[src*="div-gpt-ad"]
 dm5.com##div[class^="ad"]
@@ -81,11 +84,14 @@ housefun.com.tw##.m-bottom-bar.is-share
 huffpost.com##.bn-share-bottom
 imama.tw##div.popwin
 info.hibarn.com##div.wrap > *:nth-child(n+3)
+inside.com.tw##.ad_block-top
 instagram.com##nav[role="navigation"] > div:only-child > div:only-child > div:nth-of-type(3)
 juksy.com##div.mtopic
 kikinote.net##div#popup
 kknews.cc##div.at-share-dock-outer
 lifehacker.jp##div.lh-postSns
+loser.news##div.atss-bottom
+loser.news##div.mfp-wrap, div.mfp-bg
 ltn.com.tw###idle-notice
 ltn.com.tw##.boxTitle .appevent
 ltn.com.tw##div.door-bottom
@@ -110,6 +116,7 @@ niusnews.com##.swiper-free-mode
 nownews.com##div.ads-block
 ntdtv.com##.social-info
 on.cc##div#mOverLay-container
+parenting.com.tw##.booksalewrap2
 parenting.com.tw##a.scrollToTop
 parenting.com.tw##div.fix_b_ad
 parenting.com.tw##footer + iframe
