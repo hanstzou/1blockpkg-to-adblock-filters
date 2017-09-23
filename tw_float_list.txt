@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: EN7WlBDs9Uc2G3+fE2YOFA
-! Version: 201709220117
+! Checksum: ZYzd2RfJPnYUxG2wAkH3bw
+! Version: 201709231341
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -74,6 +74,7 @@ gamme.com.tw##div.ad_down
 gamme.com.tw##div.if
 gamme.com.tw##div.share
 gamme.com.tw##span.pimgShare
+google.com.tw,google.com###tads
 haaretz.com###maavaron
 haaretz.com##.footer-toolbar.float
 haaretz.com##.mobile-banner
@@ -109,6 +110,7 @@ managertoday.com.tw##div.sumome-share-client-wrapper-mobile-bottom-bar
 match.net.tw##div#share_bottom
 medium.com##div.postActionsBar-content > div:not(.postActions)
 mobile01.com###Full_AD,div[class^="modal"]
+natgeomedia.com##.ad-wrapper
 news.readmoo.com##.show-box
 newtalk.tw##div[id^="div-gpt-ad"]
 niusnews.com##.divMSns
@@ -120,11 +122,13 @@ parenting.com.tw##.booksalewrap2
 parenting.com.tw##a.scrollToTop
 parenting.com.tw##div.fix_b_ad
 parenting.com.tw##footer + iframe
+passiontimes.hk##.featherlight
 pchome.com.tw##div#MainSet > div#ss
 pchome.com.tw##div.admaskbg
 pchome.com.tw##div.global_footer_wrapper
 pchome.com.tw##div[id^=HTML5_AD]
 pchome.com.tw##footer#foot
+pingwest.com###app-download
 pixnet.net##div#recommend-tools
 pixnet.net##div.article-content-inner > div.fb-page
 pixnet.net##div.header-ad
@@ -145,8 +149,8 @@ sina.com.tw##.mfp-container
 soundofhope.org##div#fbox-background
 spp.com.tw##div#cboxOverlay
 spp.com.tw##div#colorbox
-techbang.com##div#pop-container
-techbang.com##div.mobile_full_ads
+techbang.com##div#idle-container
+techbang.com##div#pop-container, div.mobile_full_ads
 techbang.com##div.phone-ads
 techcrunch.com##.lightbox
 technews.tw##div.blockUI
@@ -179,6 +183,7 @@ upmedia.mg##div#maskfb, div#note_windows
 viewfinder.com.tw##div.overlayer
 vogue.com.tw###popAD-Close,.mask_off
 vogue.com.tw###r-share
+walkerland.com.tw##div#event_lottery, div.scroll
 webptt.com##div#Cover
 wechatinchina.com##div.PopupLayer, div.PopupLayerBg
 wechatinchina.com##div.bottom_nav
