@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: ZYzd2RfJPnYUxG2wAkH3bw
-! Version: 201709231341
+! Checksum: QVQ6dNqHr8V2OQrHQRKgSA
+! Version: 201709241109
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -87,6 +87,8 @@ imama.tw##div.popwin
 info.hibarn.com##div.wrap > *:nth-child(n+3)
 inside.com.tw##.ad_block-top
 instagram.com##nav[role="navigation"] > div:only-child > div:only-child > div:nth-of-type(3)
+ipetgroup.com###fbFixedAd
+ipetgroup.com##script + div[style*="z-index"], script + div + div[style*="z-index"]
 juksy.com##div.mtopic
 kikinote.net##div#popup
 kknews.cc##div.at-share-dock-outer
