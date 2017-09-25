@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: QVQ6dNqHr8V2OQrHQRKgSA
-! Version: 201709241109
+! Checksum: Gx75CJncfjUbJzAp6t7g7A
+! Version: 201709252219
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -82,7 +82,10 @@ healthway.tips##div.popwin
 hk01.com##.footer__socialshare.sticky
 hkjam.com###spu-bg,#spu-main
 housefun.com.tw##.m-bottom-bar.is-share
+howtogeek.com##div.email-overlay
 huffpost.com##.bn-share-bottom
+hypebeast.com###mobile-nav-placeholder
+hypebeast.com###mobile-share-bar
 imama.tw##div.popwin
 info.hibarn.com##div.wrap > *:nth-child(n+3)
 inside.com.tw##.ad_block-top
@@ -131,6 +134,7 @@ pchome.com.tw##div.global_footer_wrapper
 pchome.com.tw##div[id^=HTML5_AD]
 pchome.com.tw##footer#foot
 pingwest.com###app-download
+pingwest.com##div.hexin-user
 pixnet.net##div#recommend-tools
 pixnet.net##div.article-content-inner > div.fb-page
 pixnet.net##div.header-ad
@@ -151,6 +155,7 @@ sina.com.tw##.mfp-container
 soundofhope.org##div#fbox-background
 spp.com.tw##div#cboxOverlay
 spp.com.tw##div#colorbox
+storm.mg##div#popup_idle
 techbang.com##div#idle-container
 techbang.com##div#pop-container, div.mobile_full_ads
 techbang.com##div.phone-ads
