@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: Gx75CJncfjUbJzAp6t7g7A
-! Version: 201709252219
+! Checksum: hod0kDu6wX5X1z2ap76JJQ
+! Version: 201709272029
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -9,11 +9,12 @@
 ##.adsbygoogle
 ##.fancybox-overlay
 ##.fancybox-wrap
+##div#pix-mib-unfold-ad
 ##div#smartbanner
 ##div.pi-Ad-mb-stick, div.pi-ad-mobile-tag-outer
-##div.pop-ad-cover, div.idle-pop.modal
+##div.pop-ad-cover, div.idle-pop.modal, div#ad-full-page
 ##iframe[class^="ONEAD-mobile-ad"]
-appledaily.com.tw##div#Cover
+appledaily.com.tw##div#Cover, div[id^="innity_adslot"]
 appledaily.com.tw##div.ui-footer-fixed, div#fadeinoutAD
 appshopper.com##iframe[src^="//disqusads.com/ads-iframe"]
 appweb.cna.com.tw##div[class^="ad"]
@@ -114,6 +115,9 @@ managertoday.com.tw##div.ad-cover, div#lightbox0_pdup
 managertoday.com.tw##div.sumome-share-client-wrapper-mobile-bottom-bar
 match.net.tw##div#share_bottom
 medium.com##div.postActionsBar-content > div:not(.postActions)
+metacritic.com###product_mini
+metacritic.com###social_btm
+mingpao.com###footer_nav
 mobile01.com###Full_AD,div[class^="modal"]
 natgeomedia.com##.ad-wrapper
 news.readmoo.com##.show-box
@@ -155,6 +159,7 @@ sina.com.tw##.mfp-container
 soundofhope.org##div#fbox-background
 spp.com.tw##div#cboxOverlay
 spp.com.tw##div#colorbox
+sspai.com##.open-in-app-button
 storm.mg##div#popup_idle
 techbang.com##div#idle-container
 techbang.com##div#pop-container, div.mobile_full_ads
@@ -198,7 +203,7 @@ wetalk.tw##div.in[class^=modal]
 wowlavie.com###articleShare
 www.am730.com.hk##div.share-button
 www.bnext.com.tw##.bnextmeida-banner
-www.bnext.com.tw##div#ad-pixfs, .delay_full_cover_ad, .modal-backdrop
+www.bnext.com.tw##div#ad-pixfs, .delay_full_cover_ad, .modal-backdrop, #lightbox0_pdup
 www.bnext.com.tw##div#sticky-wrapper.is-sticky
 www.bnext.com.tw##div.top_nav
 www.bnext.com.tw##div[class^=sumome-share]
