@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: hod0kDu6wX5X1z2ap76JJQ
-! Version: 201709272029
+! Checksum: rC6oMExh9jVzAn+3A0Joyg
+! Version: 201709302341
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -34,6 +34,7 @@ buzzorange.com##div[class^=share_group]
 buzzorange.com##p#back-top
 cardu.com.tw###copyright
 cardu.com.tw###ft_ad_box
+cinematoday.jp##div[class*="ct-ad"], div[id^="ct-ad"][id$="overlay"], div[id^="adingoFluctOverlay"]
 ck101.com##a.btn-contribute-bottom
 clickme.net###Shadow
 cmoney.tw###FbFansFixedBlock
@@ -52,6 +53,7 @@ dm5.com##div[class^="ad"]
 dm5.com##div[id^="_unit_space"], div.readPage ~ div
 douban.com##div.bottom_ad_download
 eprice.com.tw##div#popup-ad-overlay
+eprice.com.tw##div[class^="ad"][class*="popup"]
 ettoday.net##div#native_mobile_stick_b
 ettoday.net##div#recomm-news,div[id^="adM"]
 ettoday.net##div.adult-box, div.overlay-adult
@@ -64,6 +66,7 @@ fashionwaltz.com##div.fix_bottom_ad
 fashionwaltz.com##div.stb-container
 fhm.com.tw##div.special_ad_cover
 flickr.com##.signup-footer
+g-cores.com###j_g_appBtmTip
 gamer.com.tw##div.footer + div
 gamme.com.tw##.fixedbutton
 gamme.com.tw##.header .h_subnav
@@ -87,6 +90,8 @@ howtogeek.com##div.email-overlay
 huffpost.com##.bn-share-bottom
 hypebeast.com###mobile-nav-placeholder
 hypebeast.com###mobile-share-bar
+ifeng.com###minefields_bottom, #imitation_bottom
+ifeng.com##.luckybag
 imama.tw##div.popwin
 info.hibarn.com##div.wrap > *:nth-child(n+3)
 inside.com.tw##.ad_block-top
@@ -120,6 +125,7 @@ metacritic.com###social_btm
 mingpao.com###footer_nav
 mobile01.com###Full_AD,div[class^="modal"]
 natgeomedia.com##.ad-wrapper
+new7.com.tw##div.TopBanner
 news.readmoo.com##.show-box
 newtalk.tw##div[id^="div-gpt-ad"]
 niusnews.com##.divMSns
@@ -151,7 +157,9 @@ qooah.com##div#fixedban
 quora.com##div[id$="banner"]
 readmoo.com##div[class^=show-box]
 roodo.com##div.pi-ad-mobile-tag-outer
+setn.com###bottom_float
 setn.com##div#bottom_AD
+setn.com##div#float_ad
 setn.com##div.top-nav.fixed
 shoppingdesign.com.tw##div#like-box, div.reveal-modal-bg
 sina.com.tw##.mfp-bg
@@ -199,6 +207,7 @@ walkerland.com.tw##div#event_lottery, div.scroll
 webptt.com##div#Cover
 wechatinchina.com##div.PopupLayer, div.PopupLayerBg
 wechatinchina.com##div.bottom_nav
+weiwenku.net##div#at-cv-lightbox
 wetalk.tw##div.in[class^=modal]
 wowlavie.com###articleShare
 www.am730.com.hk##div.share-button
@@ -240,6 +249,7 @@ www.weekendhk.com##.footer_fixed
 www.weekendhk.com##.search_banner
 www.wemoscooter.com##.et_bloom_popup
 www.wemoscooter.com##.et_social_mobile, .et_social_mobile_overlay, .et_bloom_optin
+xfastest.com##.ssbp-wrap
 xuite.net##div#crazyCrazy
 xuite.net##div#gmads, div#rmiad
 xuite.net##div.techocean-gemini-ad-bottom-wrapper
