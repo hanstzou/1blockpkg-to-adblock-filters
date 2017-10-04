@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: rC6oMExh9jVzAn+3A0Joyg
-! Version: 201709302341
+! Checksum: 9F7tFokSqfMaOKNXPZi+kg
+! Version: 201710042221
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -57,6 +57,7 @@ eprice.com.tw##div[class^="ad"][class*="popup"]
 ettoday.net##div#native_mobile_stick_b
 ettoday.net##div#recomm-news,div[id^="adM"]
 ettoday.net##div.adult-box, div.overlay-adult
+ettoday.net##div[class^="ad"][class$="fixed"]
 ettoday.net##div[class^="adM"],div[id^="ebAd"]
 facebook.com###pagelet_ego_pane
 facebook.com##div#mobile_login_bar
@@ -67,6 +68,7 @@ fashionwaltz.com##div.stb-container
 fhm.com.tw##div.special_ad_cover
 flickr.com##.signup-footer
 g-cores.com###j_g_appBtmTip
+gamebase.com.tw###mobile_category_menu
 gamer.com.tw##div.footer + div
 gamme.com.tw##.fixedbutton
 gamme.com.tw##.header .h_subnav
@@ -174,11 +176,13 @@ techbang.com##div#pop-container, div.mobile_full_ads
 techbang.com##div.phone-ads
 techcrunch.com##.lightbox
 technews.tw##div.blockUI
+theinitium.com##.c-ad-prestitial
 thenewslens.com##div.ad-btm
 thenewslens.com##div[id^="ONEAD"]
 thepaper.cn###moblink-href
 thestandnews.com##div.donation-banner
 time.com##span[id^="ad_is_"][id$="_CONTAINER"]
+tumblr.com##.tmblr-iframe--app-cta-button
 tvbs.com.tw##div.flash_news
 tvbs.com.tw##div.main_share
 tvbs.com.tw##div.nav-m
