@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 9F7tFokSqfMaOKNXPZi+kg
-! Version: 201710042221
+! Checksum: +MBaQeCyXeQBNe5Sspvh7Q
+! Version: 201710071740
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -11,7 +11,8 @@
 ##.fancybox-wrap
 ##div#pix-mib-unfold-ad
 ##div#smartbanner
-##div.pi-Ad-mb-stick, div.pi-ad-mobile-tag-outer
+##div.gs-bottom 
+##div.pi-Ad-mb-stick, div.pi-ad-mobile-tag-outer, div.ppiiad-DT-tag-wrap
 ##div.pop-ad-cover, div.idle-pop.modal, div#ad-full-page
 ##iframe[class^="ONEAD-mobile-ad"]
 appledaily.com.tw##div#Cover, div[id^="innity_adslot"]
@@ -104,6 +105,7 @@ juksy.com##div.mtopic
 kikinote.net##div#popup
 kknews.cc##div.at-share-dock-outer
 lifehacker.jp##div.lh-postSns
+looklook.space,wokao.co##div.adsscreen
 loser.news##div.atss-bottom
 loser.news##div.mfp-wrap, div.mfp-bg
 ltn.com.tw###idle-notice
@@ -181,6 +183,7 @@ thenewslens.com##div.ad-btm
 thenewslens.com##div[id^="ONEAD"]
 thepaper.cn###moblink-href
 thestandnews.com##div.donation-banner
+thinkingtaiwan.com###azkanchorad, div[class*="shareaholic-anchorad"]
 time.com##span[id^="ad_is_"][id$="_CONTAINER"]
 tumblr.com##.tmblr-iframe--app-cta-button
 tvbs.com.tw##div.flash_news
@@ -213,6 +216,9 @@ wechatinchina.com##div.PopupLayer, div.PopupLayerBg
 wechatinchina.com##div.bottom_nav
 weiwenku.net##div#at-cv-lightbox
 wetalk.tw##div.in[class^=modal]
+wokao.co###main-content .qq
+wokao.co##div[id^="exoNativeWidget"]
+wokao.co##div[id^="float"]
 wowlavie.com###articleShare
 www.am730.com.hk##div.share-button
 www.bnext.com.tw##.bnextmeida-banner
