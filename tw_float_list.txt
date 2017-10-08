@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: +MBaQeCyXeQBNe5Sspvh7Q
-! Version: 201710071740
+! Checksum: X7AotRqm1LDGk3Uw+WgBsQ
+! Version: 201710090003
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -9,6 +9,7 @@
 ##.adsbygoogle
 ##.fancybox-overlay
 ##.fancybox-wrap
+##.sumome-share-client-wrapper
 ##div#pix-mib-unfold-ad
 ##div#smartbanner
 ##div.gs-bottom 
@@ -28,6 +29,7 @@ businessweekly.com.tw##div#AdSameFullPanel
 businessweekly.com.tw##div.socialshare
 businessweekly.com.tw##div.topbannerAD
 businessweekly.com.tw##div[id^=ONEAD]
+businessweekly.com.tw##header.-top
 buzzorange.com###tags-navigation
 buzzorange.com##div#divFloatBottom
 buzzorange.com##div.ui-widget-overlay, div.ui-dialog
