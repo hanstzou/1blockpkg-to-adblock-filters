@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: X7AotRqm1LDGk3Uw+WgBsQ
-! Version: 201710090003
+! Checksum: A74YYMu3yM2QfV7b2ZhkTg
+! Version: 201710130135
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -40,6 +40,7 @@ cardu.com.tw###ft_ad_box
 cinematoday.jp##div[class*="ct-ad"], div[id^="ct-ad"][id$="overlay"], div[id^="adingoFluctOverlay"]
 ck101.com##a.btn-contribute-bottom
 clickme.net###Shadow
+cmmedia.com.tw##div[id^="ucfad"]
 cmoney.tw###FbFansFixedBlock
 cmoney.tw##.m-socail-wrap
 cnyes.com##footer + span
@@ -168,6 +169,9 @@ setn.com##div#bottom_AD
 setn.com##div#float_ad
 setn.com##div.top-nav.fixed
 shoppingdesign.com.tw##div#like-box, div.reveal-modal-bg
+sina.com.hk###guru_mobile_popup_wrapper
+sina.com.hk###ypaAdWrapper-Floating, div.kiwi-ad-sticky-listing-bottom-mobile-wrapper
+sina.com.hk##nav.category
 sina.com.tw##.mfp-bg
 sina.com.tw##.mfp-container
 soundofhope.org##div#fbox-background
@@ -206,6 +210,7 @@ udn.com##div#cate_menu
 udn.com##div#footer ~ a[id^="go"]
 udn.com##div.float_bar
 udn.com##div[id^=simplemodal-]
+upmedia.mg###bottom-ad
 upmedia.mg##div#Adgeek_bottomAd
 upmedia.mg##div#marquee
 upmedia.mg##div#maskfb, div#note_windows
