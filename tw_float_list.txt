@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: A74YYMu3yM2QfV7b2ZhkTg
-! Version: 201710130135
+! Checksum: VEK1sDG5ovTNhtevBedHBg
+! Version: 201710192340
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -9,10 +9,10 @@
 ##.adsbygoogle
 ##.fancybox-overlay
 ##.fancybox-wrap
-##.sumome-share-client-wrapper
+##.i-amphtml-sticky-ad-layout, .article-footer + .sticky-box
+##.sumome-share-client-wrapper, #social-tools-panel, div.gs-bottom
 ##div#pix-mib-unfold-ad
 ##div#smartbanner
-##div.gs-bottom 
 ##div.pi-Ad-mb-stick, div.pi-ad-mobile-tag-outer, div.ppiiad-DT-tag-wrap
 ##div.pop-ad-cover, div.idle-pop.modal, div#ad-full-page
 ##iframe[class^="ONEAD-mobile-ad"]
@@ -157,7 +157,7 @@ pixnet.net##div.article-content-inner > div.fb-page
 pixnet.net##div.header-ad
 pixnet.net##div.sticky-box
 plurk.com,roodo.com##div.sitemaji_inters
-pttweb.tw##div#at-share-dock
+pttweb.tw,nippon.com##div#at-share-dock
 qooah.com###uni320
 qooah.com##div#background
 qooah.com##div#fixedban
@@ -261,7 +261,7 @@ www.teepr.com##div.single_post ~ *
 www.teepr.com##div[class^=remodal]
 www.teepr.com##div[id^="popmake"]
 www.teepr.com##div[id^=post] ~ *
-www.upmedia.mg##div#insert_popup_ad
+www.upmedia.mg##div#insert_popup_ad, #cover-ad
 www.weekendhk.com##.footer_fixed
 www.weekendhk.com##.search_banner
 www.wemoscooter.com##.et_bloom_popup
@@ -269,7 +269,7 @@ www.wemoscooter.com##.et_social_mobile, .et_social_mobile_overlay, .et_bloom_opt
 xfastest.com##.ssbp-wrap
 xuite.net##div#crazyCrazy
 xuite.net##div#gmads, div#rmiad
-xuite.net##div.techocean-gemini-ad-bottom-wrapper
+xuite.net##div.techocean-gemini-ad-bottom-wrapper, div.wow-gemini-ad-bottom-wrapper
 yahoo.com##div#DARLAlyr
 yahoo.com##div#app > div:first-child > div.Pos\(f\):last-child
 yam.com##div.axdBox
