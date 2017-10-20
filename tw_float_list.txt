@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: VEK1sDG5ovTNhtevBedHBg
-! Version: 201710192340
+! Checksum: ySbWzVIlVCvVxyNjlqRJxg
+! Version: 201710200948
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -150,6 +150,7 @@ pchome.com.tw##div.admaskbg
 pchome.com.tw##div.global_footer_wrapper
 pchome.com.tw##div[id^=HTML5_AD]
 pchome.com.tw##footer#foot
+photoblog.hk##.header.scrolled
 pingwest.com###app-download
 pingwest.com##div.hexin-user
 pixnet.net##div#recommend-tools
@@ -266,6 +267,7 @@ www.weekendhk.com##.footer_fixed
 www.weekendhk.com##.search_banner
 www.wemoscooter.com##.et_bloom_popup
 www.wemoscooter.com##.et_social_mobile, .et_social_mobile_overlay, .et_bloom_optin
+www.winentaste.com##.vex.vex-theme-plain
 xfastest.com##.ssbp-wrap
 xuite.net##div#crazyCrazy
 xuite.net##div#gmads, div#rmiad
