@@ -1,18 +1,19 @@
 [Adblock Plus 2.0]
-! Checksum: ySbWzVIlVCvVxyNjlqRJxg
-! Version: 201710200948
+! Checksum: w6YiAIUciEMwPiB9DpyR4w
+! Version: 201710232228
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
 !
 ###simplemodel-overlay
+##.ArevicoModal-bg, .ArevicoModal
 ##.adsbygoogle
 ##.fancybox-overlay
 ##.fancybox-wrap
 ##.i-amphtml-sticky-ad-layout, .article-footer + .sticky-box
 ##.sumome-share-client-wrapper, #social-tools-panel, div.gs-bottom
 ##div#pix-mib-unfold-ad
-##div#smartbanner
+##div#smartbanner, .smartbar-popup
 ##div.pi-Ad-mb-stick, div.pi-ad-mobile-tag-outer, div.ppiiad-DT-tag-wrap
 ##div.pop-ad-cover, div.idle-pop.modal, div#ad-full-page
 ##iframe[class^="ONEAD-mobile-ad"]
@@ -66,7 +67,7 @@ ettoday.net##div[class^="adM"],div[id^="ebAd"]
 facebook.com###pagelet_ego_pane
 facebook.com##div#mobile_login_bar
 facebook.com##div#mobile_login_bar + div
-facebook.com##div#pagelet_growth_expanding_cta
+facebook.com##div#pagelet_growth_expanding_cta, div#headerArea > div[style*="height"]
 fashionwaltz.com##div.fix_bottom_ad
 fashionwaltz.com##div.stb-container
 fhm.com.tw##div.special_ad_cover
@@ -84,6 +85,7 @@ gamme.com.tw##div.ad_down
 gamme.com.tw##div.if
 gamme.com.tw##div.share
 gamme.com.tw##span.pimgShare
+gaus.ee##.header-promo-content
 google.com.tw,google.com###tads
 haaretz.com###maavaron
 haaretz.com##.footer-toolbar.float
@@ -104,6 +106,7 @@ inside.com.tw##.ad_block-top
 instagram.com##nav[role="navigation"] > div:only-child > div:only-child > div:nth-of-type(3)
 ipetgroup.com###fbFixedAd
 ipetgroup.com##script + div[style*="z-index"], script + div + div[style*="z-index"]
+juksy.com##.juksyCover
 juksy.com##div.mtopic
 kikinote.net##div#popup
 kknews.cc##div.at-share-dock-outer
@@ -262,6 +265,7 @@ www.teepr.com##div.single_post ~ *
 www.teepr.com##div[class^=remodal]
 www.teepr.com##div[id^="popmake"]
 www.teepr.com##div[id^=post] ~ *
+www.top1health.com##.art_footer
 www.upmedia.mg##div#insert_popup_ad, #cover-ad
 www.weekendhk.com##.footer_fixed
 www.weekendhk.com##.search_banner
