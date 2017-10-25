@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: w6YiAIUciEMwPiB9DpyR4w
-! Version: 201710232228
+! Checksum: BboqBOXbEM3NVLnXC3G2DQ
+! Version: 201710260009
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -17,6 +17,8 @@
 ##div.pi-Ad-mb-stick, div.pi-ad-mobile-tag-outer, div.ppiiad-DT-tag-wrap
 ##div.pop-ad-cover, div.idle-pop.modal, div#ad-full-page
 ##iframe[class^="ONEAD-mobile-ad"]
+9gag.com##.badge-bottom-ad
+appledaily.com###ad-SNSSplashAd
 appledaily.com.tw##div#Cover, div[id^="innity_adslot"]
 appledaily.com.tw##div.ui-footer-fixed, div#fadeinoutAD
 appshopper.com##iframe[src^="//disqusads.com/ads-iframe"]
@@ -86,6 +88,7 @@ gamme.com.tw##div.if
 gamme.com.tw##div.share
 gamme.com.tw##span.pimgShare
 gaus.ee##.header-promo-content
+gomaji.com###input_sub .watch
 google.com.tw,google.com###tads
 haaretz.com###maavaron
 haaretz.com##.footer-toolbar.float
@@ -127,6 +130,7 @@ m.mobile01.com###smartbanner-area
 m.mobile01.com##div#ad1
 m.news.ebc.net.tw##div#copyShare
 managertoday.com.tw##div.ad-cover, div#lightbox0_pdup
+managertoday.com.tw##div.modal, div.modal-backdrop
 managertoday.com.tw##div.sumome-share-client-wrapper-mobile-bottom-bar
 match.net.tw##div#share_bottom
 medium.com##div.postActionsBar-content > div:not(.postActions)
@@ -134,6 +138,7 @@ metacritic.com###product_mini
 metacritic.com###social_btm
 mingpao.com###footer_nav
 mobile01.com###Full_AD,div[class^="modal"]
+muji8.tv##.kiwiad-popup-overlay
 natgeomedia.com##.ad-wrapper
 new7.com.tw##div.TopBanner
 news.readmoo.com##.show-box
@@ -222,6 +227,7 @@ viewfinder.com.tw##div.overlayer
 vogue.com.tw###popAD-Close,.mask_off
 vogue.com.tw###r-share
 walkerland.com.tw##div#event_lottery, div.scroll
+wanqu.co###branch-banner-iframe
 webptt.com##div#Cover
 wechatinchina.com##div.PopupLayer, div.PopupLayerBg
 wechatinchina.com##div.bottom_nav
