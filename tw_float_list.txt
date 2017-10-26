@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: BboqBOXbEM3NVLnXC3G2DQ
-! Version: 201710260009
+! Checksum: f+xzweHk9e3IQTP1Go10sg
+! Version: 201710262104
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -43,7 +43,7 @@ cardu.com.tw###ft_ad_box
 cinematoday.jp##div[class*="ct-ad"], div[id^="ct-ad"][id$="overlay"], div[id^="adingoFluctOverlay"]
 ck101.com##a.btn-contribute-bottom
 clickme.net###Shadow
-cmmedia.com.tw##div[id^="ucfad"]
+cmmedia.com.tw##div[id^="ucfad"], #insert_popup_ad
 cmoney.tw###FbFansFixedBlock
 cmoney.tw##.m-socail-wrap
 cnyes.com##footer + span
@@ -74,6 +74,8 @@ fashionwaltz.com##div.fix_bottom_ad
 fashionwaltz.com##div.stb-container
 fhm.com.tw##div.special_ad_cover
 flickr.com##.signup-footer
+forbes.com##.sticky-fbs-ad-container, .up-next
+forbes.com##div.sticky__scroll--a
 g-cores.com###j_g_appBtmTip
 gamebase.com.tw###mobile_category_menu
 gamer.com.tw##div.footer + div
