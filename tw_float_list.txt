@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: f+xzweHk9e3IQTP1Go10sg
-! Version: 201710262104
+! Checksum: tWsRFnnvd0sdRgVKSLp5lg
+! Version: 201710300036
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -235,6 +235,7 @@ wechatinchina.com##div.PopupLayer, div.PopupLayerBg
 wechatinchina.com##div.bottom_nav
 weiwenku.net##div#at-cv-lightbox
 wetalk.tw##div.in[class^=modal]
+wired.co.uk###domCookieWarning
 wokao.co###main-content .qq
 wokao.co##div[id^="exoNativeWidget"]
 wokao.co##div[id^="float"]
@@ -257,6 +258,7 @@ www.hbrtaiwan.com##div.ad-container
 www.hbrtaiwan.com##div[class^="at-expanding-share-button"] 
 www.intego.com###newsletter-overlay
 www.judgead.in##.site-footer
+www.kobo.com##html.large .rich-header-secondary-link-bar
 www.mirrormedia.mg##div.dfp-cover
 www.mirrormedia.mg##div.share-mobile
 www.mplus.com.tw###searchbar
@@ -281,6 +283,8 @@ www.wemoscooter.com##.et_bloom_popup
 www.wemoscooter.com##.et_social_mobile, .et_social_mobile_overlay, .et_bloom_optin
 www.winentaste.com##.vex.vex-theme-plain
 xfastest.com##.ssbp-wrap
+xuite.net##.sitemaji_tab
+xuite.net##.wowocean-d2s-modal
 xuite.net##div#crazyCrazy
 xuite.net##div#gmads, div#rmiad
 xuite.net##div.techocean-gemini-ad-bottom-wrapper, div.wow-gemini-ad-bottom-wrapper
