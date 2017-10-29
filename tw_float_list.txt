@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: tWsRFnnvd0sdRgVKSLp5lg
-! Version: 201710300036
+! Checksum: C8ii05iyM1O0AhsGHky6Jw
+! Version: 201710300040
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -258,7 +258,7 @@ www.hbrtaiwan.com##div.ad-container
 www.hbrtaiwan.com##div[class^="at-expanding-share-button"] 
 www.intego.com###newsletter-overlay
 www.judgead.in##.site-footer
-www.kobo.com##html.large .rich-header-secondary-link-bar
+www.kobo.com##html.large .rich-header-secondary-link-bar, html.jumbo .rich-header-secondary-link-bar
 www.mirrormedia.mg##div.dfp-cover
 www.mirrormedia.mg##div.share-mobile
 www.mplus.com.tw###searchbar
