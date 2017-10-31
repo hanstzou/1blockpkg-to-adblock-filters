@@ -1,10 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: C8ii05iyM1O0AhsGHky6Jw
-! Version: 201710300040
+! Checksum: m+/A+p/XO7gweEvhYMBIPQ
+! Version: 201710312321
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
 !
+###lightbox0_pdup
 ###simplemodel-overlay
 ##.ArevicoModal-bg, .ArevicoModal
 ##.adsbygoogle
@@ -190,6 +191,7 @@ spp.com.tw##div#cboxOverlay
 spp.com.tw##div#colorbox
 sspai.com##.open-in-app-button
 storm.mg##div#popup_idle
+styletc.com##.clickforceads
 techbang.com##div#idle-container
 techbang.com##div#pop-container, div.mobile_full_ads
 techbang.com##div.phone-ads
@@ -263,6 +265,8 @@ www.mirrormedia.mg##div.dfp-cover
 www.mirrormedia.mg##div.share-mobile
 www.mplus.com.tw###searchbar
 www.mplus.com.tw##div#footer
+www.playpcesor.com##header.sticky h1
+www.playpcesor.com##iframe.hb-bar-bottom
 www.sportsv.net##div#bottomAD
 www.storm.mg###cboxOverlay
 www.storm.mg##div#colorbox
