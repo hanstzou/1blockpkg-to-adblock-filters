@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: m+/A+p/XO7gweEvhYMBIPQ
-! Version: 201710312321
+! Checksum: ZcfyWlhKm6L9+bW9Kr0wyg
+! Version: 201711051806
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -18,10 +18,11 @@
 ##div.pi-Ad-mb-stick, div.pi-ad-mobile-tag-outer, div.ppiiad-DT-tag-wrap
 ##div.pop-ad-cover, div.idle-pop.modal, div#ad-full-page
 ##iframe[class^="ONEAD-mobile-ad"]
+163.com##div.doc-footer-wrapper
 9gag.com##.badge-bottom-ad
 appledaily.com###ad-SNSSplashAd
-appledaily.com.tw##div#Cover, div[id^="innity_adslot"]
-appledaily.com.tw##div.ui-footer-fixed, div#fadeinoutAD
+appledaily.com.tw,appledaily.com##div#Cover, div[id^="innity_adslot"]
+appledaily.com.tw,appledaily.com##div.ui-footer-fixed, div#fadeinoutAD
 appshopper.com##iframe[src^="//disqusads.com/ads-iframe"]
 appweb.cna.com.tw##div[class^="ad"]
 blog.sina.com.tw###fix_bottom, #ad_iframe_background, #ad_iframe_area
@@ -127,7 +128,7 @@ ltn.com.tw##div.fb_mask
 ltn.com.tw##div.splash
 ltn.com.tw##div[class^="mar"]
 ltn.com.tw##div[id^="ONEAD"]
-ltn.com.tw,appledaily.com.tw##div#eyeDiv
+ltn.com.tw,appledaily.com.tw,appledaily.com##div#eyeDiv
 m.cna.com.tw###sticky .carousel, div[id*="marquee"]
 m.mobile01.com###smartbanner-area
 m.mobile01.com##div#ad1
@@ -253,6 +254,7 @@ www.chinatimes.com##.newtop
 www.chinatimes.com##div.ad_rwd_dfp
 www.chinatimes.com##div[id^=pagead]
 www.cyclingweekly.com##.advert.header-advert.row
+www.darencademy.com###header .helloBar
 www.edigest.hk##.footer_fixed
 www.gamer.com.tw##script:contains(AntiAd)
 www.hbrtaiwan.com##.sticky-backdrop
