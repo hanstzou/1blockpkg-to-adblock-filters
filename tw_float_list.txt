@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: ZcfyWlhKm6L9+bW9Kr0wyg
-! Version: 201711051806
+! Checksum: LZYjGIHKd6N24f4iQvtIPQ
+! Version: 201711080020
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -25,6 +25,8 @@ appledaily.com.tw,appledaily.com##div#Cover, div[id^="innity_adslot"]
 appledaily.com.tw,appledaily.com##div.ui-footer-fixed, div#fadeinoutAD
 appshopper.com##iframe[src^="//disqusads.com/ads-iframe"]
 appweb.cna.com.tw##div[class^="ad"]
+blog.branch.io###dpsp-mobile-sticky
+blog.branch.io##div#exitpopup-modal
 blog.sina.com.tw###fix_bottom, #ad_iframe_background, #ad_iframe_area
 burrardstreetjournal.com##div[class^=ArevicoModal]
 businesstoday.com.tw##.m-top
@@ -133,7 +135,7 @@ m.cna.com.tw###sticky .carousel, div[id*="marquee"]
 m.mobile01.com###smartbanner-area
 m.mobile01.com##div#ad1
 m.news.ebc.net.tw##div#copyShare
-managertoday.com.tw##div.ad-cover, div#lightbox0_pdup
+managertoday.com.tw##div.ad-cover, div#lightbox0_pdup, #ONEAD-mobile2, .modal-dialog
 managertoday.com.tw##div.modal, div.modal-backdrop
 managertoday.com.tw##div.sumome-share-client-wrapper-mobile-bottom-bar
 match.net.tw##div#share_bottom
