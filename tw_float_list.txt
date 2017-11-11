@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: LZYjGIHKd6N24f4iQvtIPQ
-! Version: 201711080020
+! Checksum: TPZbnNCdRbPYat+DVfb1pg
+! Version: 201711120100
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -96,6 +96,8 @@ gamme.com.tw##span.pimgShare
 gaus.ee##.header-promo-content
 gomaji.com###input_sub .watch
 google.com.tw,google.com###tads
+gq.com.tw###popAD
+gq.com.tw###r-share
 haaretz.com###maavaron
 haaretz.com##.footer-toolbar.float
 haaretz.com##.mobile-banner
@@ -130,7 +132,7 @@ ltn.com.tw##div.fb_mask
 ltn.com.tw##div.splash
 ltn.com.tw##div[class^="mar"]
 ltn.com.tw##div[id^="ONEAD"]
-ltn.com.tw,appledaily.com.tw,appledaily.com##div#eyeDiv
+ltn.com.tw,appledaily.com.tw,appledaily.com,businessweekly.com.tw##div#eyeDiv
 m.cna.com.tw###sticky .carousel, div[id*="marquee"]
 m.mobile01.com###smartbanner-area
 m.mobile01.com##div#ad1
@@ -220,6 +222,7 @@ tw.weibo.com##div#footer_mobile_bottom
 tw.weibo.com##div.pi-Ad-mb-stick
 tw.weibo.com##div[id^="ONEAD"]
 tw.weibo.com##iframe#scupio_frame
+twgreatdaily.com###fbModel, div.modal-backdrop
 udn.com###cboxClose, #cboxOverlay, #colorbox, .ads-container, .overlay-mask, #show_box
 udn.com##div#bottomAd
 udn.com##div#cate_menu
