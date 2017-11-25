@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: TPZbnNCdRbPYat+DVfb1pg
-! Version: 201711120100
+! Checksum: +6Kw1fZuu/7KJi2ZyV6H0Q
+! Version: 201711251251
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -56,6 +56,7 @@ coco01.net##.adCat
 coco01.net##.promote-cover
 cool3c.com##.board-cool3c_MobileAD
 cool3c.com##.social-bar.sticky
+crossing.cw.com.tw##div[id^="ebAd"]
 ctitv.com.tw###adover, .clickforceads
 ctitv.com.tw##iframe[id^="google_osd_static_frame"] + div
 cw.com.tw##.paywallAnnounce
@@ -262,6 +263,7 @@ www.cyclingweekly.com##.advert.header-advert.row
 www.darencademy.com###header .helloBar
 www.edigest.hk##.footer_fixed
 www.gamer.com.tw##script:contains(AntiAd)
+www.hahatai.com###footer
 www.hbrtaiwan.com##.sticky-backdrop
 www.hbrtaiwan.com##div.ad-container
 www.hbrtaiwan.com##div[class^="at-expanding-share-button"] 
@@ -287,7 +289,7 @@ www.teepr.com##div[class^=remodal]
 www.teepr.com##div[id^="popmake"]
 www.teepr.com##div[id^=post] ~ *
 www.top1health.com##.art_footer
-www.upmedia.mg##div#insert_popup_ad, #cover-ad
+www.upmedia.mg##div#insert_popup_ad, #cover-ad, #full-ad
 www.weekendhk.com##.footer_fixed
 www.weekendhk.com##.search_banner
 www.wemoscooter.com##.et_bloom_popup
