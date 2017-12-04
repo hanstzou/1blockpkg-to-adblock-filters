@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: +6Kw1fZuu/7KJi2ZyV6H0Q
-! Version: 201711251251
+! Checksum: g6rU2SmwGYbRrP8tCv2wxQ
+! Version: 201712050110
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -22,7 +22,7 @@
 9gag.com##.badge-bottom-ad
 appledaily.com###ad-SNSSplashAd
 appledaily.com.tw,appledaily.com##div#Cover, div[id^="innity_adslot"]
-appledaily.com.tw,appledaily.com##div.ui-footer-fixed, div#fadeinoutAD
+appledaily.com.tw,appledaily.com##div.ui-footer-fixed, div#fadeinoutAD, div#scrollAd
 appshopper.com##iframe[src^="//disqusads.com/ads-iframe"]
 appweb.cna.com.tw##div[class^="ad"]
 blog.branch.io###dpsp-mobile-sticky
@@ -112,6 +112,7 @@ hypebeast.com###mobile-nav-placeholder
 hypebeast.com###mobile-share-bar
 ifeng.com###minefields_bottom, #imitation_bottom
 ifeng.com##.luckybag
+ifeng.com##div#golddigger_bottom
 imama.tw##div.popwin
 info.hibarn.com##div.wrap > *:nth-child(n+3)
 inside.com.tw##.ad_block-top
@@ -121,6 +122,7 @@ ipetgroup.com##script + div[style*="z-index"], script + div + div[style*="z-inde
 juksy.com##.juksyCover
 juksy.com##div.mtopic
 kikinote.net##div#popup
+kingnet.com.tw###ad-allpage-bottom-sticky-zone
 kknews.cc##div.at-share-dock-outer
 lifehacker.jp##div.lh-postSns
 looklook.space,wokao.co##div.adsscreen
