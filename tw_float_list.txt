@@ -1,25 +1,31 @@
 [Adblock Plus 2.0]
-! Checksum: g6rU2SmwGYbRrP8tCv2wxQ
-! Version: 201712050110
+! Checksum: OLFJtcxL4HXfyLyvRZyjVA
+! Version: 201802041517
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
 !
 ###lightbox0_pdup
 ###simplemodel-overlay
+###sitemaji_fixed
 ##.ArevicoModal-bg, .ArevicoModal
 ##.adsbygoogle
 ##.fancybox-overlay
 ##.fancybox-wrap
-##.i-amphtml-sticky-ad-layout, .article-footer + .sticky-box
+##.i-amphtml-sticky-ad-layout, .article-footer + .sticky-box, .kiwi-ad-sticky-scaler
+##.kiwiad-popup-overlay
 ##.sumome-share-client-wrapper, #social-tools-panel, div.gs-bottom
 ##div#pix-mib-unfold-ad
 ##div#smartbanner, .smartbar-popup
 ##div.pi-Ad-mb-stick, div.pi-ad-mobile-tag-outer, div.ppiiad-DT-tag-wrap
 ##div.pop-ad-cover, div.idle-pop.modal, div#ad-full-page
+##div.pxmcv-container
+##div[id^="innity_adslot"], div#splashad
 ##iframe[class^="ONEAD-mobile-ad"]
 163.com##div.doc-footer-wrapper
 9gag.com##.badge-bottom-ad
+ameblo.jp##div[id^='google_ads_iframe']
+applealmond.com##div[id^='ypaAdWrapper-applealmond']
 appledaily.com###ad-SNSSplashAd
 appledaily.com.tw,appledaily.com##div#Cover, div[id^="innity_adslot"]
 appledaily.com.tw,appledaily.com##div.ui-footer-fixed, div#fadeinoutAD, div#scrollAd
@@ -28,6 +34,7 @@ appweb.cna.com.tw##div[class^="ad"]
 blog.branch.io###dpsp-mobile-sticky
 blog.branch.io##div#exitpopup-modal
 blog.sina.com.tw###fix_bottom, #ad_iframe_background, #ad_iframe_area
+bomb01.cc##.modal
 burrardstreetjournal.com##div[class^=ArevicoModal]
 businesstoday.com.tw##.m-top
 businesstoday.com.tw##.reveal-modal-bg
@@ -35,7 +42,6 @@ businesstoday.com.tw##div.footerBanner
 businessweekly.com.tw##div#AdSameFullPanel
 businessweekly.com.tw##div.socialshare
 businessweekly.com.tw##div.topbannerAD
-businessweekly.com.tw##div[id^=ONEAD]
 businessweekly.com.tw##header.-top
 buzzorange.com###tags-navigation
 buzzorange.com##div#divFloatBottom
@@ -116,6 +122,7 @@ ifeng.com##div#golddigger_bottom
 imama.tw##div.popwin
 info.hibarn.com##div.wrap > *:nth-child(n+3)
 inside.com.tw##.ad_block-top
+inside.com.tw##.page #fb-root
 instagram.com##nav[role="navigation"] > div:only-child > div:only-child > div:nth-of-type(3)
 ipetgroup.com###fbFixedAd
 ipetgroup.com##script + div[style*="z-index"], script + div + div[style*="z-index"]
@@ -140,6 +147,8 @@ m.cna.com.tw###sticky .carousel, div[id*="marquee"]
 m.mobile01.com###smartbanner-area
 m.mobile01.com##div#ad1
 m.news.ebc.net.tw##div#copyShare
+m.u-car.com.tw##.coverads
+m.u-car.com.tw##.followads
 managertoday.com.tw##div.ad-cover, div#lightbox0_pdup, #ONEAD-mobile2, .modal-dialog
 managertoday.com.tw##div.modal, div.modal-backdrop
 managertoday.com.tw##div.sumome-share-client-wrapper-mobile-bottom-bar
@@ -172,6 +181,7 @@ pchome.com.tw##footer#foot
 photoblog.hk##.header.scrolled
 pingwest.com###app-download
 pingwest.com##div.hexin-user
+pixiv.net###container div[class^="y1"][style*="z-index"], #geniee_overlay
 pixnet.net##div#recommend-tools
 pixnet.net##div.article-content-inner > div.fb-page
 pixnet.net##div.header-ad
@@ -183,6 +193,7 @@ qooah.com##div#background
 qooah.com##div#fixedban
 quora.com##div[id$="banner"]
 readmoo.com##div[class^=show-box]
+reddit.com##.DualPartInterstitial, .xpromoMinimal, div#container div.App
 roodo.com##div.pi-ad-mobile-tag-outer
 setn.com###bottom_float
 setn.com##div#bottom_AD
@@ -208,15 +219,17 @@ technews.tw##div.blockUI
 theinitium.com##.c-ad-prestitial
 thenewslens.com##div.ad-btm
 thenewslens.com##div[id^="ONEAD"]
+thenextweb.com##.cookieConsent
 thepaper.cn###moblink-href
 thestandnews.com##div.donation-banner
 thinkingtaiwan.com###azkanchorad, div[class*="shareaholic-anchorad"]
 time.com##span[id^="ad_is_"][id$="_CONTAINER"]
 tumblr.com##.tmblr-iframe--app-cta-button
+tvbs.com.tw##.advertising_lightbox
 tvbs.com.tw##div.flash_news
 tvbs.com.tw##div.main_share
 tvbs.com.tw##div.nav-m
-tvbs.com.tw##div.under-banner-m
+tvbs.com.tw##div.under-banner-m, .ad_320x50_mo
 tvbs.com.tw##div[id^=one_ad]
 tvbs.com.tw##iframe[id^="aswift"]
 tw.weibo.com##div#cboxOverlay
@@ -253,11 +266,12 @@ wokao.co##div[id^="float"]
 wowlavie.com###articleShare
 www.am730.com.hk##div.share-button
 www.bnext.com.tw##.bnextmeida-banner
-www.bnext.com.tw##div#ad-pixfs, .delay_full_cover_ad, .modal-backdrop, #lightbox0_pdup
+www.bnext.com.tw##div#ad-pixfs, .delay_full_cover_ad, .modal-backdrop, #lightbox0_pdup, div[id^="innity_adslot"]
 www.bnext.com.tw##div#sticky-wrapper.is-sticky
 www.bnext.com.tw##div.top_nav
 www.bnext.com.tw##div[class^=sumome-share]
 www.businessinsider.com##.tp-modal, .tp-backdrop
+www.chinatimes.com##.lightbox_3min
 www.chinatimes.com##.newtop
 www.chinatimes.com##div.ad_rwd_dfp
 www.chinatimes.com##div[id^=pagead]
@@ -270,14 +284,20 @@ www.hbrtaiwan.com##.sticky-backdrop
 www.hbrtaiwan.com##div.ad-container
 www.hbrtaiwan.com##div[class^="at-expanding-share-button"] 
 www.intego.com###newsletter-overlay
+www.jacksonlin.net###sgcolorbox, #sgcboxOverlay
 www.judgead.in##.site-footer
 www.kobo.com##html.large .rich-header-secondary-link-bar, html.jumbo .rich-header-secondary-link-bar
+www.mirrormedia.mg##.view .ad-cover
 www.mirrormedia.mg##div.dfp-cover
 www.mirrormedia.mg##div.share-mobile
+www.mook.com.tw##.modal-dialog, #modal-one
+www.mook.com.tw##div[class^='ad_Bottom']
 www.mplus.com.tw###searchbar
 www.mplus.com.tw##div#footer
+www.newmobilelife.com###mobile-share-boxbottom
 www.playpcesor.com##header.sticky h1
 www.playpcesor.com##iframe.hb-bar-bottom
+www.soft4fun.net##.ypa-single-post-ad
 www.sportsv.net##div#bottomAD
 www.storm.mg###cboxOverlay
 www.storm.mg##div#colorbox
@@ -308,3 +328,4 @@ yahoo.com##div#app > div:first-child > div.Pos\(f\):last-child
 yam.com##div.axdBox
 yam.com##div.shareBar
 yam.com##div[id^=idle_]
+zhihu.com##.OpenInAppButton
