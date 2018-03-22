@@ -1,18 +1,19 @@
 [Adblock Plus 2.0]
-! Checksum: OLFJtcxL4HXfyLyvRZyjVA
-! Version: 201802041517
+! Checksum: bM/Zpq2yLt3rCO47LwbDUA
+! Version: 201803230042
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
 !
 ###lightbox0_pdup
+###onesignal-popover-container
 ###simplemodel-overlay
 ###sitemaji_fixed
 ##.ArevicoModal-bg, .ArevicoModal
 ##.adsbygoogle
 ##.fancybox-overlay
 ##.fancybox-wrap
-##.i-amphtml-sticky-ad-layout, .article-footer + .sticky-box, .kiwi-ad-sticky-scaler
+##.i-amphtml-sticky-ad-layout, .article-footer + .sticky-box, .kiwi-ad-sticky-scaler, .kiwi-ad-sticky-bottom-mobile-wrapper
 ##.kiwiad-popup-overlay
 ##.sumome-share-client-wrapper, #social-tools-panel, div.gs-bottom
 ##div#pix-mib-unfold-ad
@@ -65,8 +66,10 @@ cool3c.com##.social-bar.sticky
 crossing.cw.com.tw##div[id^="ebAd"]
 ctitv.com.tw###adover, .clickforceads
 ctitv.com.tw##iframe[id^="google_osd_static_frame"] + div
+cw.com.tw##.authorInfo #author-track-notification
 cw.com.tw##.paywallAnnounce
 cw.com.tw##iframe[src*="div-gpt-ad"]
+daodu.tech###wrapper .toggle-footer.toggle
 dm5.com##div[class^="ad"]
 dm5.com##div[id^="_unit_space"], div.readPage ~ div
 douban.com##div.bottom_ad_download
@@ -108,6 +111,7 @@ gq.com.tw###r-share
 haaretz.com###maavaron
 haaretz.com##.footer-toolbar.float
 haaretz.com##.mobile-banner
+hd1069.blogspot.tw##br:not(:nth-of-type(9n))
 healthway.tips##div.popwin
 hk01.com##.footer__socialshare.sticky
 hkjam.com###spu-bg,#spu-main
@@ -249,6 +253,7 @@ upmedia.mg###bottom-ad
 upmedia.mg##div#Adgeek_bottomAd
 upmedia.mg##div#marquee
 upmedia.mg##div#maskfb, div#note_windows
+verywed.com##.HB-Modal
 viewfinder.com.tw##div.overlayer
 vogue.com.tw###popAD-Close,.mask_off
 vogue.com.tw###r-share
@@ -279,6 +284,7 @@ www.cyclingweekly.com##.advert.header-advert.row
 www.darencademy.com###header .helloBar
 www.edigest.hk##.footer_fixed
 www.gamer.com.tw##script:contains(AntiAd)
+www.google.com.tw,www.google.com##.ads-ad
 www.hahatai.com###footer
 www.hbrtaiwan.com##.sticky-backdrop
 www.hbrtaiwan.com##div.ad-container
@@ -329,3 +335,5 @@ yam.com##div.axdBox
 yam.com##div.shareBar
 yam.com##div[id^=idle_]
 zhihu.com##.OpenInAppButton
+
+||babyhome.com.tw/public/js/idle_status_bootstrap_mini.js*
