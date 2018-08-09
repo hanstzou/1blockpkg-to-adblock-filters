@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: P73+vas2zCA4lH2hpswu7A
-! Version: 201805152225
+! Checksum: cFDNtVZLYODZoz+sKbWgFA
+! Version: 201808100238
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -11,6 +11,7 @@
 ###sitemaji_fixed
 ##.ArevicoModal-bg, .ArevicoModal
 ##.adsbygoogle
+##.clickforceads
 ##.fancybox-overlay, #fancybox-overlay
 ##.fancybox-wrap
 ##.i-amphtml-sticky-ad-layout, .article-footer + .sticky-box, .kiwi-ad-sticky-scaler, .kiwi-ad-sticky-bottom-mobile-wrapper
@@ -18,19 +19,21 @@
 ##.sumome-share-client-wrapper, #social-tools-panel, div.gs-bottom, div.shareaholic-share-buttons-container
 ##div#pix-mib-unfold-ad
 ##div#smartbanner, .smartbar-popup
-##div.pi-Ad-mb-stick, div.pi-ad-mobile-tag-outer, div.ppiiad-DT-tag-wrap
+##div.butterBar
+##div.pi-Ad-mb-stick, div.pi-ad-mobile-tag-outer, div.ppiiad-DT-tag-wrap, div.ppiiad-DT-mainAD-outer
 ##div.pop-ad-cover, div.idle-pop.modal, div#ad-full-page
 ##div.pxmcv-container
 ##div[id^="innity_adslot"], div#splashad
 ##iframe[class^="ONEAD-mobile-ad"]
 163.com##div.doc-footer-wrapper
+36kr.com##.article-content .fixed-linkedme
 9gag.com##.badge-bottom-ad
 agirls.aotter.net##.container.post-list .soical-box
 allabout.co.jp###sys-anchor
 ameblo.jp##div[id^='google_ads_iframe']
 applealmond.com##div[id^='ypaAdWrapper-applealmond']
 appledaily.com###ad-SNSSplashAd
-appledaily.com.tw,appledaily.com##div#Cover, div[id^="innity_adslot"]
+appledaily.com.tw,appledaily.com##div#Cover, div[id^="innity_adslot"], div#OpenFullAD
 appledaily.com.tw,appledaily.com##div.ui-footer-fixed, div#fadeinoutAD, div#scrollAd
 appshopper.com##iframe[src^="//disqusads.com/ads-iframe"]
 appweb.cna.com.tw##div[class^="ad"]
@@ -57,6 +60,7 @@ buzzorange.com##div.ui-widget-overlay, div.ui-dialog
 buzzorange.com##div[class^=share_group]
 buzzorange.com##p#back-top
 cardu.com.tw###copyright
+cardu.com.tw###fancybox-overlay
 cardu.com.tw###ft_ad_box
 cinematoday.jp##div[class*="ct-ad"], div[id^="ct-ad"][id$="overlay"], div[id^="adingoFluctOverlay"]
 ck101.com##.all-elements .adfixWp
@@ -83,6 +87,8 @@ daodu.tech###wrapper .toggle-footer.toggle
 dm5.com##div[class^="ad"]
 dm5.com##div[id^="_unit_space"], div.readPage ~ div
 douban.com##div.bottom_ad_download
+elle.com##div.social-menu
+elle.com##div[id^=ebAd]
 eprice.com.tw##div#popup-ad-overlay
 eprice.com.tw##div[class^="ad"][class*="popup"]
 ettoday.net##div#native_mobile_stick_b
@@ -102,7 +108,7 @@ forbes.com##.sticky-fbs-ad-container, .up-next
 forbes.com##div.sticky__scroll--a
 g-cores.com###j_g_appBtmTip
 gamebase.com.tw###mobile_category_menu
-gamer.com.tw##div.footer + div
+gamer.com.tw##div.footer + div, footer + script + div
 gamme.com.tw##.fixedbutton
 gamme.com.tw##.header .h_subnav
 gamme.com.tw##a#fullad_all
@@ -181,11 +187,12 @@ metacritic.com###social_btm
 mingpao.com###footer_nav
 mobile01.com###Full_AD,div[class^="modal"]
 muji8.tv##.kiwiad-popup-overlay
+musou.tw##.main .support-watchout
 natgeomedia.com##.ad-wrapper
 new7.com.tw##div.TopBanner
 news.readmoo.com##.show-box
 newtalk.tw##div[id^="div-gpt-ad"]
-newtslk.tw##iframe[src*=tamedia]
+newtalk.tw##iframe[src*=tamedia], div[style*=z-index][style*=absolute][style*=left]
 niusnews.com##.divMSns
 niusnews.com##.swiper-free-mode
 nownews.com##div.ads-block
@@ -217,6 +224,8 @@ qooah.com##div#fixedban
 quora.com##div[id$="banner"]
 readmoo.com##div[class^=show-box]
 reddit.com##.DualPartInterstitial, .xpromoMinimal, div#container div.App
+reddit.com##div[class^=DualPartInterstitial]
+reuters.com##div[class^=GetTheAppBanner]
 roodo.com##div.pi-ad-mobile-tag-outer
 setn.com###bottom_float
 setn.com##div#bottom_AD
@@ -246,6 +255,7 @@ thenewslens.com##div.ad-btm
 thenewslens.com##div[id^="ONEAD"]
 thenextweb.com##.cookieConsent
 thepaper.cn###moblink-href
+thestandnews.com##.cc-floating
 thestandnews.com##div.donation-banner
 thinkingtaiwan.com###azkanchorad, div[class*="shareaholic-anchorad"]
 time.com##span[id^="ad_is_"][id$="_CONTAINER"]
@@ -285,38 +295,49 @@ wechatinchina.com##div.PopupLayer, div.PopupLayerBg
 wechatinchina.com##div.bottom_nav
 weiwenku.net##div#at-cv-lightbox
 wetalk.tw##div.in[class^=modal]
-wired.co.uk###domCookieWarning
+wired.co.uk,wired.com###domCookieWarning
+wired.com,wired.co.uk##.paywall-container-component
+wired.com,wired.co.uk##div[class^=header__social]
 wokao.co###main-content .qq
 wokao.co##div[id^="exoNativeWidget"]
 wokao.co##div[id^="float"]
+womany.net###slideAds .adimg
 wowlavie.com###articleShare
 www.am730.com.hk##div.share-button
 www.bnext.com.tw##.bnextmeida-banner
-www.bnext.com.tw##div#ad-pixfs, .delay_full_cover_ad, .modal-backdrop, #lightbox0_pdup, div[id^="innity_adslot"]
+www.bnext.com.tw##div#ad-pixfs, .delay_full_cover_ad, .modal-backdrop, #lightbox0_pdup, div[id^="innity_adslot"], div[id^=incover-layout]
 www.bnext.com.tw##div#sticky-wrapper.is-sticky
 www.bnext.com.tw##div.top_nav
 www.bnext.com.tw##div[class^=sumome-share]
+www.books.com.tw##div.flash_banner_pop
+www.books.com.tw##div.mod ul.ban
 www.businessinsider.com##.tp-modal, .tp-backdrop
+www.businesstoday.com.tw##div[id^=vmfive-ad-unit-container]
 www.chinatimes.com##.lightbox_3min
 www.chinatimes.com##.newtop
-www.chinatimes.com##div.ad_rwd_dfp
-www.chinatimes.com##div[id^=pagead]
+www.chinatimes.com##div.ad_rwd_dfp, div.rwd_tube_floater_box
+www.chinatimes.com##div[id^=pagead], div#divBG
 www.cyclingweekly.com##.advert.header-advert.row
 www.darencademy.com###header .helloBar
 www.economist.com###app-mount .cookie-message
 www.economist.com##.standout-content #bottom-page-wrapper
 www.edigest.hk##.footer_fixed
 www.euractiv.com###cookie-law-bar
+www.evernote.com###registration-footer
 www.gamer.com.tw##script:contains(AntiAd)
 www.google.com.tw,www.google.com##.ads-ad
 www.hahatai.com###footer
+www.hbrtaiwan.com##.fixedsticky-on.sticky-tools
 www.hbrtaiwan.com##.sticky-backdrop
 www.hbrtaiwan.com##div.ad-container
+www.hbrtaiwan.com##div.hotKey
 www.hbrtaiwan.com##div[class^="at-expanding-share-button"] 
+www.hksilicon.com##.stickyfooter
 www.intego.com###newsletter-overlay
 www.jacksonlin.net###sgcolorbox, #sgcboxOverlay
 www.judgead.in##.site-footer
 www.kobo.com##html.large .rich-header-secondary-link-bar, html.jumbo .rich-header-secondary-link-bar
+www.mirrormedia.mg##.cc-bottom
 www.mirrormedia.mg##.view .ad-cover
 www.mirrormedia.mg##div.dfp-cover
 www.mirrormedia.mg##div.share-mobile
@@ -326,6 +347,10 @@ www.mplus.com.tw###searchbar
 www.mplus.com.tw##div#footer
 www.mplus.com.tw##div[class^="my_popup"]
 www.newmobilelife.com###mobile-share-boxbottom
+www.npf.org.tw###backtotop
+www.npf.org.tw###headermain #weatherarea
+www.npf.org.tw##.cc-floating
+www.npf.org.tw##.nav-growpop
 www.playpcesor.com##header.sticky h1
 www.playpcesor.com##iframe.hb-bar-bottom
 www.researchaffiliates.com##.cookieContainer.ra-disclaim
@@ -338,6 +363,7 @@ www.storm.mg##div.fixed-toolbar
 www.storm.mg##div.popup_wrapper
 www.storm.mg##div[class^="ad_article_bottom_block"], div#article_bottomBar
 www.storm.mg,pixnet.net,weibo.com##div#scupio_interstitialad, div#scupio_interstitial
+www.teepr.com###astro
 www.teepr.com##div.bot-sticky-wrapper
 www.teepr.com##div.single_post ~ *
 www.teepr.com##div[class^=remodal]
@@ -360,6 +386,7 @@ yahoo.com###guce-inline-consent-iframe
 yahoo.com##div#DARLAlyr
 yahoo.com##div#app > div:first-child > div.Pos\(f\):last-child
 yahoo.com##div[class^="hotListing"]
+yam.com###sns-mob
 yam.com##div.axdBox
 yam.com##div.shareBar
 yam.com##div[id^=idle_]
