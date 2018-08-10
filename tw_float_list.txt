@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: cFDNtVZLYODZoz+sKbWgFA
-! Version: 201808100238
+! Checksum: LVNr9GqSGxY6oMnMTo0QtQ
+! Version: 201808101714
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -377,6 +377,7 @@ www.wemoscooter.com##.et_bloom_popup
 www.wemoscooter.com##.et_social_mobile, .et_social_mobile_overlay, .et_bloom_optin
 www.winentaste.com##.vex.vex-theme-plain
 xfastest.com##.ssbp-wrap
+xinmedia.com##div#iframe_article, div.modal-dialog
 xuite.net##.sitemaji_tab
 xuite.net##.wowocean-d2s-modal
 xuite.net##div#crazyCrazy
