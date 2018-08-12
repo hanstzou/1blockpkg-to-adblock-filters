@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: LVNr9GqSGxY6oMnMTo0QtQ
-! Version: 201808101714
+! Checksum: dPM2//6siSHjLcU0VJLFRA
+! Version: 201808121010
 ! Expires: 2 days
 ! Title: TW Float List
 ! Homepage: https://github.com/hanstzou/1blockpkg-to-adblock-filters
@@ -267,6 +267,7 @@ tvbs.com.tw##div.nav-m
 tvbs.com.tw##div.under-banner-m, .ad_320x50_mo
 tvbs.com.tw##div[id^=one_ad]
 tvbs.com.tw##iframe[id^="aswift"]
+tw.bid.yahoo.com##aside[class^=hotListing]
 tw.weibo.com##div#cboxOverlay
 tw.weibo.com##div#colorbox
 tw.weibo.com##div#footer_mobile_bottom
@@ -377,7 +378,7 @@ www.wemoscooter.com##.et_bloom_popup
 www.wemoscooter.com##.et_social_mobile, .et_social_mobile_overlay, .et_bloom_optin
 www.winentaste.com##.vex.vex-theme-plain
 xfastest.com##.ssbp-wrap
-xinmedia.com##div#iframe_article, div.modal-dialog
+xinmedia.com##div#iframe_article, div.modal-dialog, div.mdl_lnls
 xuite.net##.sitemaji_tab
 xuite.net##.wowocean-d2s-modal
 xuite.net##div#crazyCrazy
